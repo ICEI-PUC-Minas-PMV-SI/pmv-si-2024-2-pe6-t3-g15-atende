@@ -6,7 +6,7 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em desenvolvimento tem como objetivo criar um sistema web de ouvidoria para a gestão pública. Essa ferramenta permitirá que cidadãos registrem suas demandas online, facilitando a comunicação com a prefeitura e o acompanhamento de suas solicitações. Para a gestão, o sistema oferecerá uma plataforma para centralizar e analisar as demandas, otimizando a tomada de decisões e a prestação de serviços. Em resumo, o sistema busca melhorar a participação popular na gestão pública, aumentar a transparência e a eficiência dos serviços oferecidos.
 
 ## Integrantes
 
