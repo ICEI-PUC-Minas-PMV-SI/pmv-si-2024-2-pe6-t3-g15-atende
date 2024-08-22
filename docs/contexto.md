@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/405a0d5a-ef10-4dce-a96e-d90de8078896)# Introdução
+# Introdução
 
 O cenário dos processos administrativos evoluiu significativamente ao longo dos anos, com a tecnologia se tornando essencial para otimizar processos e melhorar a comunicação nas organizações. Essa evolução tecnológica não só aprimorou a eficiência operacional, mas também destacou a importância da satisfação do cliente no setor privado, com estratégias voltadas para a geração de valor e fidelização. No contexto governamental, o desafio de atender e comunicar-se efetivamente com os cidadãos permanece constante, exigindo que as estratégias públicas estejam alinhadas às expectativas da população. 
 
