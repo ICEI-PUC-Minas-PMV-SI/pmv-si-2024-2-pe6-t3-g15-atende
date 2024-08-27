@@ -84,7 +84,83 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 # Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+**1. Cadastro e Gerenciamento de Requisições**
+
+**Descrição:** Permite aos usuários registrar novas requisições, visualizar e editar requisições existentes, bem como excluí-las quando necessário.
+
+**Funcionalidades:**
+
+**•	Cadastro de Requisições:** Usuários podem registrar novas solicitações de serviços ou reclamações.
+
+**•	Visualização de Requisições:** Usuários podem consultar o status e os detalhes das requisições feitas.
+
+**•	Edição de Requisições:** Permite atualizar as informações das requisições existentes.
+
+**•	Exclusão de Requisições:** Usuários podem remover requisições, caso necessário.
+
+**•	Filtragem e Pesquisa:** Opções para buscar requisições por data, tipo, status e outros critérios.
+
+**Público-Alvo:** Cidadãos, Gestores Públicos, Servidores Públicos Operacionais
+
+**2. Notificações por E-mail e SMS**
+
+**Descrição:** Envia notificações automatizadas para os usuários sobre o status das suas requisições.
+
+**Funcionalidades:**
+
+**•	Notificação por E-mail:** Envio de e-mails quando novas requisições são registradas ou atualizadas.
+
+**•	Notificação por SMS:** Envio de mensagens SMS para manter os usuários informados sobre o progresso de suas requisições 
+
+**•	Público-Alvo: Cidadãos**
+
+**3. Feedback das Solicitações**
+
+**Descrição:** Permite que os cidadãos enviem feedbacks sobre o atendimento recebido e a resolução das suas requisições.
+
+**Funcionalidades:**
+
+**•	Envio de Feedback:** Opção para enviar comentários e avaliações sobre o serviço prestado.
+
+**•	Visualização de Feedbacks:** Os gestores podem visualizar e analisar os feedbacks recebidos para melhoria contínua.
+
+**Público-Alvo:** Cidadãos, Gestores Públicos
+
+**4. Geração de Relatórios**
+
+**Descrição:** Criação de relatórios detalhados sobre as requisições, feedbacks e outras métricas relevantes para análise e tomada de decisão.
+
+**Funcionalidades:**
+
+**•	Relatórios Personalizados:** Geração de relatórios com filtros específicos (por data, tipo de requisição, setor responsável, etc.).
+
+**•	Exportação de Relatórios:** Opção para exportar relatórios em formatos como PDF, Excel, etc.
+
+**Público-Alvo:** Gestores Públicos, Supervisores
+
+**5. Autenticação e Controle de Acesso**
+
+**Descrição:** Sistema de autenticação para acesso ao sistema e controle de acesso baseado em perfis.
+
+**Funcionalidades:**
+
+**•	Login e Senha:** Requer autenticação por login e senha para acesso ao sistema.
+
+**•	Controle de Acesso:** Definição de níveis de acesso (cidadão-colaborador e gestão) e restrição de funcionalidades com base no perfil do usuário.
+
+**Público-Alvo:** Todos os usuários
+
+**6. Interface Amigável e Navegação**
+
+**Descrição:** Interface do usuário que facilita a navegação e a interação com o sistema.
+
+**Funcionalidades:**
+
+**•	Design Intuitivo:** Utilização de ícones e cores que tornam a navegação mais intuitiva.
+
+**•	Botões de Redirecionamento:** Facilita o acesso às principais funcionalidades do sistema.
+
+**Público-Alvo:** Todos os usuários
 
 # Arquitetura da Solução
 
