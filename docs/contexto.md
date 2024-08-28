@@ -41,7 +41,79 @@ Melhorando assim o gerenciamento das relações com os cidadãos através de um 
 
 Cidadãos, Servidores Públicos Operacionais, Gestores Públicos, Técnicos de Suporte e TI, Supervisores de Atendimento ao Cidadão 
 
-## Público-Alvo
+## Personas
+
+1. Ana Luiza
+Idade: 34 anos
+Ocupação: Professora de escola primária
+Tecnologia: Usuária ativa de smartphones e redes sociais
+Objetivos: Quer um sistema eficiente e acessível para relatar problemas na comunidade, como iluminação pública e buracos nas ruas. Valoriza transparência e respostas rápidas.
+Desafios: Dificuldades para acompanhar o progresso das solicitações devido à falta de informações claras.
+Uso do Sistema: Utiliza o aplicativo móvel e o portal online para registrar e rastrear solicitações, frequentemente anexa fotos e descreve problemas detalhadamente.
+
+2. Carlos Daniel
+Idade: 45 anos
+Ocupação: Coordenador de Atendimento ao Cidadão
+Tecnologia: Familiarizado com softwares administrativos e sistemas integrados
+Objetivos: Melhorar a eficiência no gerenciamento das solicitações e garantir que todas as demandas sejam atendidas adequadamente.
+Desafios: Gerenciar grandes volumes de solicitações e garantir encaminhamento correto para os departamentos.
+Uso do Sistema: Utiliza o painel administrativo para monitorar, categorizar e distribuir as solicitações. Analisa relatórios para identificar áreas que precisam de mais atenção.
+
+3. Maria 
+Idade: 62 anos
+Ocupação: Aposentada
+Tecnologia: Usa um celular básico e e-mail ocasionalmente
+Objetivos: Deseja um meio simples para registrar problemas como manutenção de parques ou coleta de lixo.
+Desafios: Dificuldades com tecnologia e prefere métodos de comunicação mais tradicionais.
+Uso do Sistema: Faz solicitações via telefone ou e-mail e recebe atualizações por SMS ou e-mail.
+
+4. João Luiz
+Idade: 50 anos
+Ocupação: Chefe do Departamento de Infraestrutura
+Tecnologia: Profissional experiente com conhecimentos em gestão de projetos e tecnologia
+Objetivos: Utilizar dados das solicitações para planejar e priorizar projetos de infraestrutura, como reparos de estradas e construção de novas instalações.
+Desafios: Necessita de informações precisas e integradas para decisões eficazes e alocação de recursos.
+Uso do Sistema: Acessa relatórios detalhados e análises de tendências para otimizar a alocação de recursos e planejamento de projetos.
+
+5. Laura Luiza
+Idade: 38 anos
+Ocupação: Coordenadora de Programas de Saúde
+Tecnologia: Usada a sistemas integrados e gestão de dados
+Objetivos: Integrar solicitações relacionadas à saúde pública com outros sistemas municipais e coordenar a resposta a questões como vacinação e controle de surtos.
+Desafios: Coordenar com vários departamentos e garantir eficiência na integração de dados.
+Uso do Sistema: Trabalha com a integração do sistema de solicitações com outros sistemas municipais, monitora o progresso e responde a solicitações específicas.
+
+6. Pedro Augusto
+Idade: 42 anos
+Ocupação: Proprietário de uma pequena loja de roupas
+Tecnologia: Usa um computador e smartphone para gerenciar negócios e comunicação
+Objetivos: Quer um sistema eficiente para relatar problemas que afetam seu comércio, como questões de segurança pública ou manutenção urbana, e receber atualizações sobre o status das solicitações.
+Desafios: Problemas urbanos que impactam diretamente seu negócio e a necessidade de respostas rápidas para minimizar impactos financeiros.
+Uso do Sistema: Utiliza o portal online e o aplicativo móvel para registrar e acompanhar solicitações relacionadas ao seu comércio. Valoriza a capacidade de fornecer feedback e avaliar a resolução dos problemas.
+
+## História de Usuário
+
+Persona Pedro, um empresário local que enfrenta problemas urbanos que afetam seu comércio, quer um sistema eficiente para relatar esses problemas e acompanhar a resolução, para que possa minimizar os impactos negativos em seu negócio e manter a satisfação dos seus clientes.
+
+Contexto: Pedro, proprietário de uma pequena loja de roupas, percebeu que a calçada em frente ao seu estabelecimento está danificada, dificultando o acesso dos clientes e afetando suas vendas. Ele precisa que a prefeitura conserte a calçada o mais rápido possível.
+
+Passos:
+
+Acesso ao Sistema: Pedro abre o aplicativo móvel da prefeitura em seu smartphone, que é mais conveniente para ele durante o horário de trabalho.
+
+Registro da Solicitação: No aplicativo, Pedro seleciona a opção para registrar uma nova solicitação. Ele descreve o problema da calçada danificada, tira e anexa fotos da área afetada, e usa o mapa interativo para marcar a localização exata da sua loja.
+
+Recebimento do Protocolo: Após enviar a solicitação, Pedro recebe imediatamente um número de protocolo via SMS e e-mail, confirmando que sua solicitação foi registrada com sucesso.
+
+Acompanhamento em Tempo Real: Pedro acompanha o status da solicitação através do aplicativo, recebendo atualizações automáticas sobre o progresso. Ele vê confirmações de que a solicitação foi recebida, está em análise e, finalmente, que o trabalho está em andamento.
+
+Feedback e Avaliação: Após a conclusão do serviço e o conserto da calçada, Pedro recebe uma notificação informando que o problema foi resolvido. Ele é convidado a avaliar o serviço e fornecer feedback sobre sua experiência.
+
+Benefícios:
+
+Transparência: Pedro tem visibilidade completa sobre o status da sua solicitação, aumentando sua confiança na eficiência da prefeitura.
+Eficiência: O processo ágil de registro e acompanhamento reduz o tempo de resposta e ajuda a resolver o problema de maneira eficaz.
+Satisfação: Pedro sente-se valorizado e satisfeito com o atendimento, sabendo que sua solicitação foi tratada de forma rápida e eficaz.
 
 
 # Especificações do Projeto
