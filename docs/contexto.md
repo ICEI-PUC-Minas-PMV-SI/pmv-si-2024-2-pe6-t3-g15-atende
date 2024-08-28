@@ -44,51 +44,87 @@ Cidadãos, Servidores Públicos Operacionais, Gestores Públicos, Técnicos de S
 ## Personas
 
 1. Ana Luiza
+   
 Idade: 34 anos
+
 Ocupação: Professora de escola primária
+
 Tecnologia: Usuária ativa de smartphones e redes sociais
+
 Objetivos: Quer um sistema eficiente e acessível para relatar problemas na comunidade, como iluminação pública e buracos nas ruas. Valoriza transparência e respostas rápidas.
+
 Desafios: Dificuldades para acompanhar o progresso das solicitações devido à falta de informações claras.
+
 Uso do Sistema: Utiliza o aplicativo móvel e o portal online para registrar e rastrear solicitações, frequentemente anexa fotos e descreve problemas detalhadamente.
 
-2. Carlos Daniel
+3. Carlos Daniel
+   
 Idade: 45 anos
+
 Ocupação: Coordenador de Atendimento ao Cidadão
+
 Tecnologia: Familiarizado com softwares administrativos e sistemas integrados
+
 Objetivos: Melhorar a eficiência no gerenciamento das solicitações e garantir que todas as demandas sejam atendidas adequadamente.
+
 Desafios: Gerenciar grandes volumes de solicitações e garantir encaminhamento correto para os departamentos.
+
 Uso do Sistema: Utiliza o painel administrativo para monitorar, categorizar e distribuir as solicitações. Analisa relatórios para identificar áreas que precisam de mais atenção.
 
-3. Maria 
+5. Maria
+
 Idade: 62 anos
+
 Ocupação: Aposentada
+
 Tecnologia: Usa um celular básico e e-mail ocasionalmente
+
 Objetivos: Deseja um meio simples para registrar problemas como manutenção de parques ou coleta de lixo.
+
 Desafios: Dificuldades com tecnologia e prefere métodos de comunicação mais tradicionais.
+
 Uso do Sistema: Faz solicitações via telefone ou e-mail e recebe atualizações por SMS ou e-mail.
 
-4. João Luiz
+7. João Luiz
+   
 Idade: 50 anos
+
 Ocupação: Chefe do Departamento de Infraestrutura
+
 Tecnologia: Profissional experiente com conhecimentos em gestão de projetos e tecnologia
+
 Objetivos: Utilizar dados das solicitações para planejar e priorizar projetos de infraestrutura, como reparos de estradas e construção de novas instalações.
+
 Desafios: Necessita de informações precisas e integradas para decisões eficazes e alocação de recursos.
+
 Uso do Sistema: Acessa relatórios detalhados e análises de tendências para otimizar a alocação de recursos e planejamento de projetos.
 
-5. Laura Luiza
+9. Laura Luiza
+
 Idade: 38 anos
+
 Ocupação: Coordenadora de Programas de Saúde
+
 Tecnologia: Usada a sistemas integrados e gestão de dados
+
 Objetivos: Integrar solicitações relacionadas à saúde pública com outros sistemas municipais e coordenar a resposta a questões como vacinação e controle de surtos.
+
 Desafios: Coordenar com vários departamentos e garantir eficiência na integração de dados.
+
 Uso do Sistema: Trabalha com a integração do sistema de solicitações com outros sistemas municipais, monitora o progresso e responde a solicitações específicas.
 
-6. Pedro Augusto
+11. Pedro Augusto
+    
 Idade: 42 anos
+
 Ocupação: Proprietário de uma pequena loja de roupas
+
 Tecnologia: Usa um computador e smartphone para gerenciar negócios e comunicação
+
 Objetivos: Quer um sistema eficiente para relatar problemas que afetam seu comércio, como questões de segurança pública ou manutenção urbana, e receber atualizações sobre o status das solicitações.
+
 Desafios: Problemas urbanos que impactam diretamente seu negócio e a necessidade de respostas rápidas para minimizar impactos financeiros.
+
 Uso do Sistema: Utiliza o portal online e o aplicativo móvel para registrar e acompanhar solicitações relacionadas ao seu comércio. Valoriza a capacidade de fornecer feedback e avaliar a resolução dos problemas.
 
 ## História de Usuário
