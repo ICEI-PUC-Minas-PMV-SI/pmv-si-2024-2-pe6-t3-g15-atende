@@ -162,11 +162,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir inclusão, exclusão e consulta dos dados das solicitações, usuários, finalidades, unidades, setores e bairros; | ALTA | 
+|RF-001| Permitir inclusão, edição, exclusão e consulta dos dados das solicitações, usuários, finalidades, unidades, setores e bairros; | ALTA | 
 |RF-002| Enviar e-mail para os usuários quando for incluída uma nova requisição;   | ALTA |
 |RF-003| Enviar sms para os usuários quando for incluída uma nova requisição;  | MÉDIA |
-|RF-004| Permitir que sejam enviados feedbacks referentes às solicitações.  | MÉDIA |
-|RF-005| Emitir Relatórios  | MÉDIA |
+|RF-004| O sistema deve permitir o cadastro de cidadãos, solicitando informações básicas como nome, CPF, endereço, e-mail, e telefone; | ALTA |
+|RF-005| O sistema deve permitir que os cidadãos se autentiquem usando um login e senha;  | ALTA |
+|RF-006| Permitir que sejam enviados feedbacks referentes às solicitações;  | MÉDIA |
+|RF-007| Emitir Relatórios, incluindo estatísticas como tipo de requisição, tempo médio de resposta;  | MÉDIA |
+|RF-008| O cidadão deve poder enviar novas requisições diretamente pelo sistema, podendo categorizar o tipo de requisição (sugestões, reclamações, denúncias, etc.).  | MÉDIA |
 
 
 ### Requisitos não Funcionais
