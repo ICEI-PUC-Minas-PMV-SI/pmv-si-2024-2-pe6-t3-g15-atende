@@ -57,7 +57,7 @@ Desafios: Dificuldades para acompanhar o progresso das solicitações devido à 
 
 Uso do Sistema: Utiliza o aplicativo móvel e o portal online para registrar e rastrear solicitações, frequentemente anexa fotos e descreve problemas detalhadamente.
 
-3. Carlos Daniel
+2. Carlos Daniel
    
 Idade: 45 anos
 
@@ -71,7 +71,7 @@ Desafios: Gerenciar grandes volumes de solicitações e garantir encaminhamento 
 
 Uso do Sistema: Utiliza o painel administrativo para monitorar, categorizar e distribuir as solicitações. Analisa relatórios para identificar áreas que precisam de mais atenção.
 
-5. Maria
+3. Maria
 
 Idade: 62 anos
 
@@ -85,7 +85,7 @@ Desafios: Dificuldades com tecnologia e prefere métodos de comunicação mais t
 
 Uso do Sistema: Faz solicitações via telefone ou e-mail e recebe atualizações por SMS ou e-mail.
 
-7. João Luiz
+4. João Luiz
    
 Idade: 50 anos
 
@@ -99,7 +99,7 @@ Desafios: Necessita de informações precisas e integradas para decisões eficaz
 
 Uso do Sistema: Acessa relatórios detalhados e análises de tendências para otimizar a alocação de recursos e planejamento de projetos.
 
-9. Laura Luiza
+5. Laura Luiza
 
 Idade: 38 anos
 
@@ -113,7 +113,7 @@ Desafios: Coordenar com vários departamentos e garantir eficiência na integra�
 
 Uso do Sistema: Trabalha com a integração do sistema de solicitações com outros sistemas municipais, monitora o progresso e responde a solicitações específicas.
 
-11. Pedro Augusto
+6. Pedro Augusto
     
 Idade: 42 anos
 
