@@ -4,7 +4,7 @@ O cenário dos processos administrativos evoluiu significativamente ao longo dos
 
 A informação, organizada e recuperada por Sistemas de Informação, é crucial para a gestão pública tomar decisões estratégicas baseadas no perfil dos cidadãos. 	Este trabalho propõe o desenvolvimento de um sistema de informação de Ouvidoria que auxilie no processo de organização das requisições dos cidadãos e ainda no processo de comunicação governo/cidadão, ou vice-versa. Dessa maneira, é possível traçar o perfil da população e aumentar a satisfação dos serviços prestados pela gestão pública. 
 
-## Problema
+# Problema
 Em geral, no setor público, a insatisfação dos cidadãos quanto à qualidade do serviço prestado é alarmante, tanto no que diz respeito à ineficiência, ineficácia e/ou a falta de respostas direcionadas, quanto às solicitações. Resultando na desmotivação deles em expressar suas preferências, em servidores públicos que deixam a desejar na execução de seus trabalhos e, consequentemente, em serviços que deixam de ser oferecidos como realmente deveriam. 
 
  Com grande frequência, percebem-se manifestos de cidadãos em redes sociais como o Facebook, onde, na maioria das vezes, são declarações negativas e não há ninguém responsável por responder esse manifesto, aumentando ainda mais o descontentamento da população quanto ao problema e causando uma grande repercussão. 
@@ -43,7 +43,7 @@ Cidadãos, Servidores Públicos Operacionais, Gestores Públicos, Técnicos de S
 
 ## Personas
 
-1. Ana Luiza
+### 1. Ana Luiza
    
 Idade: 34 anos
 
@@ -57,7 +57,7 @@ Desafios: Dificuldades para acompanhar o progresso das solicitações devido à 
 
 Uso do Sistema: Utiliza o aplicativo móvel e o portal online para registrar e rastrear solicitações, frequentemente anexa fotos e descreve problemas detalhadamente.
 
-2. Carlos Daniel
+### 2. Carlos Daniel
    
 Idade: 45 anos
 
@@ -71,7 +71,7 @@ Desafios: Gerenciar grandes volumes de solicitações e garantir encaminhamento 
 
 Uso do Sistema: Utiliza o painel administrativo para monitorar, categorizar e distribuir as solicitações. Analisa relatórios para identificar áreas que precisam de mais atenção.
 
-3. Maria
+### 3. Maria
 
 Idade: 62 anos
 
@@ -85,7 +85,7 @@ Desafios: Dificuldades com tecnologia e prefere métodos de comunicação mais t
 
 Uso do Sistema: Faz solicitações via telefone ou e-mail e recebe atualizações por SMS ou e-mail.
 
-4. João Luiz
+### 4. João Luiz
    
 Idade: 50 anos
 
@@ -99,7 +99,7 @@ Desafios: Necessita de informações precisas e integradas para decisões eficaz
 
 Uso do Sistema: Acessa relatórios detalhados e análises de tendências para otimizar a alocação de recursos e planejamento de projetos.
 
-5. Laura Luiza
+### 5. Laura Luiza
 
 Idade: 38 anos
 
@@ -113,7 +113,7 @@ Desafios: Coordenar com vários departamentos e garantir eficiência na integra�
 
 Uso do Sistema: Trabalha com a integração do sistema de solicitações com outros sistemas municipais, monitora o progresso e responde a solicitações específicas.
 
-6. Pedro Augusto
+### 6. Pedro Augusto
     
 Idade: 42 anos
 
@@ -217,7 +217,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 # Catálogo de Serviços
 
-**1. Cadastro e Gerenciamento de Requisições**
+### **1. Cadastro e Gerenciamento de Requisições**
 
 **Descrição:** Permite aos usuários registrar novas requisições, visualizar e editar requisições existentes, bem como excluí-las quando necessário.
 
@@ -235,7 +235,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 **Público-Alvo:** Cidadãos, Gestores Públicos, Servidores Públicos Operacionais
 
-**2. Notificações por E-mail e SMS**
+### **2. Notificações por E-mail e SMS**
 
 **Descrição:** Envia notificações automatizadas para os usuários sobre o status das suas requisições.
 
@@ -247,7 +247,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 **•	Público-Alvo: Cidadãos**
 
-**3. Feedback das Solicitações**
+### **3. Feedback das Solicitações**
 
 **Descrição:** Permite que os cidadãos enviem feedbacks sobre o atendimento recebido e a resolução das suas requisições.
 
@@ -259,7 +259,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 **Público-Alvo:** Cidadãos, Gestores Públicos
 
-**4. Geração de Relatórios**
+### **4. Geração de Relatórios**
 
 **Descrição:** Criação de relatórios detalhados sobre as requisições, feedbacks e outras métricas relevantes para análise e tomada de decisão.
 
@@ -271,7 +271,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 **Público-Alvo:** Gestores Públicos, Supervisores
 
-**5. Autenticação e Controle de Acesso**
+### **5. Autenticação e Controle de Acesso**
 
 **Descrição:** Sistema de autenticação para acesso ao sistema e controle de acesso baseado em perfis.
 
@@ -283,7 +283,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 **Público-Alvo:** Todos os usuários
 
-**6. Interface Amigável e Navegação**
+### **6. Interface Amigável e Navegação**
 
 **Descrição:** Interface do usuário que facilita a navegação e a interação com o sistema.
 
