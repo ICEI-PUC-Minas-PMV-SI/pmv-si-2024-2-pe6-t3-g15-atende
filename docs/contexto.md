@@ -197,7 +197,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
-# Matriz de rastreabilidade de requisitos
+## Matriz de rastreabilidade de requisitos
 A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos funcionais e não funcionais com as interfaces do sistema. Ela é usada para identificar quais interfaces precisam ser desenvolvidas para atender a cada requisito, garantindo que todas as funcionalidades especificadas sejam implementadas de maneira adequada.
 |Interface| RF01 | RF02 | RF03 | RF04 | RF05 | RF06 | RF07 | RF08 | RNF01 | RNF02 | RNF03 | RNF04 | RNF05 | RNF06 |
 |---------|------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|
@@ -215,7 +215,7 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 * Verificação de Completeness: Garantir que todas as funcionalidades exigidas tenham uma interface correspondente.
 * Integração Adequada: Ajudar a coordenar o desenvolvimento entre as diferentes partes da equipe, como desenvolvedores de frontend e backend, para garantir que todas as partes do sistema funcionem juntas de forma eficaz.
 
-# Catálogo de Serviços
+## Catálogo de Serviços
 
 ### **1. Cadastro e Gerenciamento de Requisições**
 
