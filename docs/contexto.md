@@ -201,10 +201,10 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos funcionais e não funcionais com as interfaces do sistema. Ela é usada para identificar quais interfaces precisam ser desenvolvidas para atender a cada requisito, garantindo que todas as funcionalidades especificadas sejam implementadas de maneira adequada.
 |Interface| RF01 | RF02 | RF03 | RF04 | RF05 | RF06 | RF07 | RF08 | RNF01 | RNF02 | RNF03 | RNF04 | RNF05 | RNF06 |
 |---------|------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|
-|UI Cadastro|   |      |      |      |     |      |      |      |       |       |       |      |       |       |
-|UI Autenticação|   |      |      |      |      |      |      |      |       |       |       |       |       |       |
-|UI Solicitação|   |      |      |      |      |      |      |      |       |       |       |       |       |       |
-|UI Relatórios|  |      |      |      |      |      |      |      |       |       |       |       |       |       |
+|UI Cadastro|  x |      |      |   x   |     |      |      |      |   x    |   x    |    x   |   x   |    x   |  x     |
+|UI Autenticação|   |      |      |      |   x   |      |      |      |     x  |    x   |   x    |    x   |   x    |   x    |
+|UI Solicitação|  x |   x   |   x   |      |      |    x  |      |   x   |       |  x     |  x     |       |       |   x    |
+|UI Relatórios|  |      |      |      |      |      |   x   |      |       |     x  |   x    |       |  x     |    x   |
 
 # Catálogo de Serviços
 
