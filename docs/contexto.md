@@ -206,6 +206,17 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 |UI Solicitação|  x |   x   |   x   |      |      |    x  |      |   x   |       |  x     |  x     |       |       |   x    |
 |UI Relatórios|  |      |      |      |      |      |   x   |      |       |     x  |   x    |       |  x     |    x   |
 
+A matriz possui colunas e linhas que representam:
+
+* Linhas: Requisitos Funcionais (RF) e Requisitos Não Funcionais (RNF) do sistema.
+* Colunas: Interfaces específicas que o sistema terá, como interfaces de usuário (UI).
+
+A Matriz de Rastreabilidade de Interfaces é fundamental para garantir que todos os requisitos sejam considerados durante o design e a implementação do sistema. Auxiliando no:
+
+* Planejamento de Desenvolvimento: Identificar quais interfaces precisam ser desenvolvidas e quais requisitos cada uma deve atender.
+* Verificação de Completeness: Garantir que todas as funcionalidades exigidas tenham uma interface correspondente.
+* Integração Adequada: Ajudar a coordenar o desenvolvimento entre as diferentes partes da equipe, como desenvolvedores de frontend e backend, para garantir que todas as partes do sistema funcionem juntas de forma eficaz.
+
 # Catálogo de Serviços
 
 **1. Cadastro e Gerenciamento de Requisições**
