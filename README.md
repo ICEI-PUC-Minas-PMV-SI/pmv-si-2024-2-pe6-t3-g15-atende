@@ -11,6 +11,7 @@ O projeto em desenvolvimento tem como objetivo criar um sistema web de ouvidoria
 ## Integrantes
 
 * Amanda Costa Dutra
+* Fábio Rezende Dias Silva
 * Gabriel Barboza Costa
 * Luís Gustavo da Silva Andrade
 * Luiz Flávio Ferreira
