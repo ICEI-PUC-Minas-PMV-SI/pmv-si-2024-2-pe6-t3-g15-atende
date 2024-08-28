@@ -169,7 +169,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O sistema deve permitir que os cidadãos se autentiquem usando um login e senha;  | ALTA |
 |RF-006| Permitir que sejam enviados feedbacks referentes às solicitações;  | MÉDIA |
 |RF-007| Emitir Relatórios, incluindo estatísticas como tipo de requisição, tempo médio de resposta;  | MÉDIA |
-|RF-008| O cidadão deve poder enviar novas requisições diretamente pelo sistema, podendo categorizar o tipo de requisição (sugestões, reclamações, denúncias, etc.).  | MÉDIA |
+|RF-008| O cidadão deve poder enviar novas requisições diretamente pelo sistema, podendo categorizar o tipo de requisição (sugestões, reclamações, denúncias, etc.).  | ALTA |
 
 
 ### Requisitos não Funcionais
@@ -177,10 +177,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RF-001| Possuir autenticação por login e senha | ALTA | 
-|RF-002| O sistema deve trabalhar com ícones e cores que facilitem a utilização;   | ALTA |
-|RF-003| O sistema deve conter botões de redirecionamento para as páginas de principais funções do website, com o intuito de melhorar a usabilidade do site;   | MÉDIA |
-|RF-004| As senhas dos usuários deverão ser criptografadas;   | MÉDIA |
+|RF-002| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência para usuários com diferentes níveis de familiaridade com tecnologia;   | ALTA |
+|RF-003| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e desktops;   | ALTA |
+|RF-004| O sistema deve garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas;   | ALTA |
 |RF-005| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil;  | MÉDIA |
+|RF-006| O sistema deve ser compatível com os principais navegadores web (Chrome, Firefox, Safari, Edge) e funcionar em diferentes sistemas operacionais;  | MÉDIA |
 
 ## Restrições
 
