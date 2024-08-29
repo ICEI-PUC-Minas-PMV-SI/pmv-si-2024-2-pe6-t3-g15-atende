@@ -191,32 +191,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-## Matriz de rastreabilidade de requisitos
-A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos funcionais e não funcionais com as interfaces do sistema. Ela é usada para identificar quais interfaces precisam ser desenvolvidas para atender a cada requisito, garantindo que todas as funcionalidades especificadas sejam implementadas de maneira adequada.
-|Interface| RF01 | RF02 | RF03 | RF04 | RF05 | RF06 | RF07 | RF08 | RNF01 | RNF02 | RNF03 | RNF04 | RNF05 | RNF06 |
-|---------|------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|
-|UI Cadastro|  x |      |      |   x   |     |      |      |      |   x    |   x    |    x   |   x   |    x   |  x     |
-|UI Autenticação|   |      |      |      |   x   |      |      |      |     x  |    x   |   x    |    x   |   x    |   x    |
-|UI Solicitação|  x |   x   |   x   |      |      |    x  |      |   x   |       |  x     |  x     |       |       |   x    |
-|UI Relatórios|  |      |      |      |      |      |   x   |      |       |     x  |   x    |       |  x     |    x   |
-
-* Linhas: Requisitos Funcionais (RF) e Requisitos Não Funcionais (RNF) do sistema.
-* Colunas: Interfaces específicas que o sistema terá, como interfaces de usuário (UI).
-
-É fundamental para garantir que todos os requisitos sejam considerados durante o design e a implementação do sistema. Auxiliando no:
-
-* Planejamento de Desenvolvimento: Identificar quais interfaces precisam ser desenvolvidas e quais requisitos cada uma deve atender.
-* Verificação de Completeness: Garantir que todas as funcionalidades exigidas tenham uma interface correspondente.
-* Integração Adequada: Ajudar a coordenar o desenvolvimento entre as diferentes partes da equipe, como desenvolvedores de frontend e backend, para garantir que todas as partes do sistema funcionem juntas de forma eficaz.
-
-## Diagrama Casos de Uso
-
 
 ## Catálogo de Serviços
 
@@ -297,54 +271,6 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 **•	Botões de Redirecionamento:** Facilita o acesso às principais funcionalidades do sistema.
 
 **Público-Alvo:** Todos os usuários
-
-# Gerenciamento e Planejamento de Cronograma, Custos e Pessoal do Projeto
-
-## 1.Cronograma
-### 1.1 Estrutura Analítica do Projeto
-* Descritivo das Entregas: Desenvolvimento do sistema de ouvidoria, incluindo cadastro de requisições, notificações, feedbacks, relatórios, autenticação e controle de acesso.
-* Divisão das Entregas em Pacotes de Trabalho: Análise, design, desenvolvimento, testes, implantação.
-### 1.2 Definição das Atividades
-Atividades Principais:
-* Análise dos requisitos
-* Design do sistema
-* Desenvolvimento das funcionalidades
-* Testes e validação
-* Implantação e treinamento
-### 1.3 Sequenciamento das Atividades
-* Diagrama de Rede do Projeto: Sequência lógica das atividades e suas dependências.
-* Precedências e Dependências: Identificação de atividades predecessoras e sucessoras.
-### 1.4 Desenvolvimento do Cronograma
-* Linha do Tempo do Projeto: Definição das datas de início e término para cada atividade.
-* Marcos Principais: Entregas significativas como conclusão da análise, finalização do design, início dos testes.
-### 1.5 Controle do Cronograma
-* Mecanismos de Monitoramento: Revisões semanais do progresso.
-* Relatórios de Progresso: Atualizações sobre o status das atividades.
-* Plano de Ação para Atrasos: Ações corretivas para manter o cronograma em dia.
-## 2.Custos
-### 2.1 Estimativa de Custos
-* Estimativa de Custos por Pacote de Trabalho: Cálculo dos custos associados à análise, design, desenvolvimento, testes e implantação.
-* Estimativa de Contingência: Reserva para imprevistos.
-### 2.2 Orçamento
-* Orçamento Total do Projeto: Cálculo do custo total do projeto.
-* Distribuição de Custos por Fase: Alocação do orçamento para as diferentes fases do projeto.
-### 2.3 Controle de Custos
-* Método de Controle: Monitoramento dos custos reais versus planejados.
-## 3.Recursos
-### 3.1 Planejamento de Recursos
-* Identificação de Recursos Necessários: Recursos humanos e técnicos necessários para o desenvolvimento do sistema.
-* Responsabilidades e Papéis dos Membros da Equipe: Definição das funções e responsabilidades de cada membro da equipe.
-### 3.2 Desenvolvimento da Equipe
-* Plano de Treinamento e Capacitação: Treinamento necessário para a equipe.
-* Dinâmicas de Integração: Atividades para promover a colaboração e integração da equipe.
-### 3.3 Gerenciamento da Equipe
-* Monitoramento do Desempenho: Avaliação contínua do desempenho dos membros da equipe.
-* Gestão de Conflitos: Resolução de possíveis conflitos.
-* Plano de Motivação e Reconhecimento: Estratégias para manter a equipe motivada e reconhecida.
-### 3.4 Plano de Comunicação
-* Estratégia de Comunicação: Definição dos métodos e canais de comunicação.
-* Frequência e Forma dos Relatórios: Periodicidade e formato dos relatórios de progresso.
-* Plano de Reuniões: Agenda e frequência das reuniões de acompanhamento.
 
 # Arquitetura da Solução
 
