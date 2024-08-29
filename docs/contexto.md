@@ -258,18 +258,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 **Público-Alvo:** Todos os usuários
 
-### **6. Interface Amigável e Navegação**
-
-**Descrição:** Interface do usuário que facilita a navegação e a interação com o sistema.
-
-**Funcionalidades:**
-
-**•	Design Intuitivo:** Utilização de ícones e cores que tornam a navegação mais intuitiva.
-
-**•	Botões de Redirecionamento:** Facilita o acesso às principais funcionalidades do sistema.
-
-**Público-Alvo:** Todos os usuários
-
 # Arquitetura da Solução
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
