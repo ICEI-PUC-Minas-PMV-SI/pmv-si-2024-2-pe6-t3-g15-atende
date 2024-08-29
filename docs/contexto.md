@@ -2,7 +2,7 @@
 
 O avanço da tecnologia tem transformado os processos administrativos, aprimorando a eficiência e a comunicação nas organizações (Davenport & Short, 1990). No setor privado, estratégias focadas na satisfação do cliente e na fidelização são essenciais. No setor público, a adaptação às novas tecnologias é crucial para uma comunicação eficaz com os cidadãos e para a gestão de expectativas (Margetts & Dunleavy, 2013).
 
-Sistemas de Informação desempenham um papel fundamental na gestão pública, ajudando a tomar decisões baseadas em dados sobre o perfil dos cidadãos (Heeks, 2006). Este trabalho propõe desenvolver um sistema de informação de Ouvidoria para melhorar a organização das requisições dos cidadãos e a comunicação entre governo e população, aumentando a satisfação com os serviços públicos.
+Sistemas de Informação desempenham um papel fundamental na gestão pública, ajudando a tomar decisões baseadas em dados sobre o perfil dos cidadãos (Heeks, 2006). Este trabalho propõe desenvolver um sistema de informação de Ouvidoria para melhorar a organização das solicitações dos cidadãos e a comunicação entre governo e população, aumentando a satisfação com os serviços públicos.
 
 ### Referências:
 * Davenport, T. H., & Short, J. E. (1990). The New Industrial Engineering: Information Technology and Business Process Redesign. Sloan Management Review, 31(4), 11-27.
