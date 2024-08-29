@@ -176,11 +176,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| Possuir autenticação e garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas. | ALTA | 
+|RNF-01| Possuir autorização e autenticação e garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas. | ALTA | 
 |RNF-02| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência aos usuários.   | ALTA |
 |RNF-03| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e Web.   | ALTA |
-|RNF-04| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil.  | MÉDIA |
-|RNF-05| O sistema deve ser funcional em sistemas Web e mobile. | ALTA |
+|RNF-04| O sistema deve ser funcional em sistemas Web e mobile. | ALTA |
 
 ## Restrições
 
@@ -195,39 +194,39 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Catálogo de Serviços
 
-### **1. Cadastro e Gerenciamento de Requisições**
+### **1. Cadastro e Gerenciamento de Solicitações**
 
-**Descrição:** Permite aos usuários registrar novas requisições, visualizar e editar requisições existentes, bem como excluí-las quando necessário.
+**Descrição:** Permite aos usuários registrar novas solicitações, visualizar e editar solicitações existentes, bem como excluí-las quando necessário.
 
 **Funcionalidades:**
 
-**•	Cadastro de Requisições:** Usuários podem registrar novas solicitações de serviços ou reclamações.
+**•	Cadastro de Solicitações:** Usuários podem registrar novas solicitações de serviços ou reclamações.
 
-**•	Visualização de Requisições:** Usuários podem consultar o status e os detalhes das requisições feitas.
+**•	Visualização de Solicitações:** Usuários podem consultar o status e os detalhes das solicitações feitas.
 
-**•	Edição de Requisições:** Permite atualizar as informações das requisições existentes.
+**•	Edição de Solicitações:** Permite atualizar as informações das solicitações existentes.
 
-**•	Exclusão de Requisições:** Usuários podem remover requisições, caso necessário.
+**•	Exclusão de Solicitações:** Usuários podem remover solicitações, caso necessário.
 
-**•	Filtragem e Pesquisa:** Opções para buscar requisições por data, tipo, status e outros critérios.
+**•	Filtragem e Pesquisa:** Opções para buscar solicitações por data, tipo, status e outros critérios.
 
 **Público-Alvo:** Cidadãos, Gestores Públicos, Servidores Públicos Operacionais
 
 ### **2. Notificações por E-mail e SMS**
 
-**Descrição:** Envia notificações automatizadas para os usuários sobre o status das suas requisições.
+**Descrição:** Envia notificações automatizadas para os usuários sobre o status das suas solicitações.
 
 **Funcionalidades:**
 
-**•	Notificação por E-mail:** Envio de e-mails quando novas requisições são registradas ou atualizadas.
+**•	Notificação por E-mail:** Envio de e-mails quando novas solicitações são registradas ou atualizadas.
 
-**•	Notificação por SMS:** Envio de mensagens SMS para manter os usuários informados sobre o progresso de suas requisições 
+**•	Notificação por SMS:** Envio de mensagens SMS para manter os usuários informados sobre o progresso de suas solicitações. 
 
 **•	Público-Alvo: Cidadãos**
 
 ### **3. Feedback das Solicitações**
 
-**Descrição:** Permite que os cidadãos enviem feedbacks sobre o atendimento recebido e a resolução das suas requisições.
+**Descrição:** Permite que os cidadãos enviem feedbacks sobre o atendimento recebido e a resolução das suas solicitações.
 
 **Funcionalidades:**
 
@@ -239,11 +238,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ### **4. Geração de Relatórios**
 
-**Descrição:** Criação de relatórios detalhados sobre as requisições, feedbacks e outras métricas relevantes para análise e tomada de decisão.
+**Descrição:** Criação de relatórios detalhados sobre as solicitações, feedbacks e outras métricas relevantes para análise e tomada de decisão.
 
 **Funcionalidades:**
 
-**•	Relatórios Personalizados:** Geração de relatórios com filtros específicos (por data, tipo de requisição, setor responsável, etc.).
+**•	Relatórios Personalizados:** Geração de relatórios com filtros específicos (por data, tipo de solicitações, setor responsável, etc.).
 
 **•	Exportação de Relatórios:** Opção para exportar relatórios em formatos como PDF, Excel, etc.
 
