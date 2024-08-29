@@ -215,6 +215,9 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 * Verificação de Completeness: Garantir que todas as funcionalidades exigidas tenham uma interface correspondente.
 * Integração Adequada: Ajudar a coordenar o desenvolvimento entre as diferentes partes da equipe, como desenvolvedores de frontend e backend, para garantir que todas as partes do sistema funcionem juntas de forma eficaz.
 
+## Diagrama Casos de Uso
+
+
 ## Catálogo de Serviços
 
 ### **1. Cadastro e Gerenciamento de Requisições**
