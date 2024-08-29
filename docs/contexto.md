@@ -20,19 +20,9 @@ O objetivo geral deste trabalho é desenvolver um sistema web de ouvidoria para 
 
 Objetivos específicos:  
 
-Os objetivos específicos deste trabalho são: 
+1)	Desenvolver uma Plataforma Centralizada de Recepção de Solicitações: Criar um sistema web que permita aos cidadãos enviar suas solicitações, reclamações e sugestões de forma centralizada e estruturada, facilitando o processo de coleta e gerenciamento das demandas.
 
-1)	identificar quais os meios utilizados para gerenciamento de requisições enviadas pelos cidadãos; 
-
-2)	reconhecer os fatores que motivam os cidadãos a expressar suas opiniões perante a prefeitura; 
-
-3)	averiguar a conveniência de um sistema que estruture solicitações da população; 
-
-4)	melhorar o processo de comunicação cidadão-prefeitura; 
-
-5)	permitir registro da participação dos cidadãos com a prefeitura; 
-
-6)	identificar os requisitos necessários para que o sistema se adéque ao perfil dos cidadãos e prefeituras (funcionalidades do sistema); 
+2)	Estabelecer Mecanismos de Comunicação Bidirecional: Desenvolver ferramentas que possibilitem uma comunicação efetiva entre cidadãos e gestores, incluindo notificações automáticas e atualizações sobre o status das solicitações.
 
 ## Justificativa
 
