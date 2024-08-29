@@ -10,11 +10,9 @@ Sistemas de Informação desempenham um papel fundamental na gestão pública, a
 * Heeks, R. (2006). Implementing and Managing eGovernment: An International Text. SAGE Publications.
 
 ## Problema
-Em geral, no setor público, a insatisfação dos cidadãos quanto à qualidade do serviço prestado é alarmante, tanto no que diz respeito à ineficiência, ineficácia e/ou a falta de respostas direcionadas, quanto às solicitações. Resultando na desmotivação deles em expressar suas preferências, em servidores públicos que deixam a desejar na execução de seus trabalhos e, consequentemente, em serviços que deixam de ser oferecidos como realmente deveriam. 
+No setor público, a insatisfação dos cidadãos com a qualidade dos serviços prestados é uma preocupação crescente. Essa insatisfação decorre da ineficiência, falta de eficácia e respostas inadequadas às solicitações, levando à desmotivação dos cidadãos em expressar suas opiniões. Isso também resulta em servidores públicos que não atendem às expectativas e, consequentemente, em serviços que não são oferecidos de forma satisfatória.
 
- Com grande frequência, percebem-se manifestos de cidadãos em redes sociais como o Facebook, onde, na maioria das vezes, são declarações negativas e não há ninguém responsável por responder esse manifesto, aumentando ainda mais o descontentamento da população quanto ao problema e causando uma grande repercussão. 
-
-Outro empecilho encontrado nesse aspecto é a carência de um setor específico para o tratamento de questões relacionadas aos cidadãos, levando em conta que cada requisição, na maior parte das prefeituras, é feita em setores individuais, dificultando o processo de gestão das informações. 
+A ausência de um sistema web eficiente para gerenciar e responder às solicitações contribui significativamente para o problema. Frequentemente, cidadãos recorrem a redes sociais, como o Facebook, para manifestar suas queixas. Essas manifestações são predominantemente negativas e não recebem resposta adequada, o que amplifica o descontentamento e gera uma repercussão ainda maior. A falta de uma plataforma centralizada para organizar e responder a essas queixas agrava a situação, tornando a comunicação e a resolução de problemas ainda mais desafiadoras.
 
 ## Objetivos
 
