@@ -9,12 +9,12 @@ Sistemas de Informação desempenham um papel fundamental na gestão pública, a
 * Margetts, H., & Dunleavy, P. (2013). The Impact of the Internet on Governance: A Review. Government & Opposition, 48(2), 225-253.
 * Heeks, R. (2006). Implementing and Managing eGovernment: An International Text. SAGE Publications.
 
-## Problema
+# Problema
 No setor público, a insatisfação dos cidadãos com a qualidade dos serviços prestados é uma preocupação crescente. Essa insatisfação decorre da ineficiência, falta de eficácia e respostas inadequadas às solicitações, levando à desmotivação dos cidadãos em expressar suas opiniões. Isso também resulta em servidores públicos que não atendem às expectativas e, consequentemente, em serviços que não são oferecidos de forma satisfatória.
 
 A ausência de um sistema web eficiente para gerenciar e responder às solicitações contribui significativamente para o problema. Frequentemente, cidadãos recorrem a redes sociais, como o Facebook, para manifestar suas queixas. Essas manifestações são predominantemente negativas e não recebem resposta adequada, o que amplifica o descontentamento e gera uma repercussão ainda maior. A falta de uma plataforma centralizada para organizar e responder a essas queixas agrava a situação, tornando a comunicação e a resolução de problemas ainda mais desafiadoras.
 
-## Objetivos
+# Objetivos
 
 O objetivo geral deste trabalho é desenvolver um sistema web de ouvidoria para a Gestão Pública, permitindo assim que a população tenha participação efetiva no processo de gestão das cidades, de forma a otimizar a interação entre os cidadãos e os gestores municipais. 
 
@@ -24,13 +24,13 @@ Objetivos específicos:
 
 2)	Estabelecer Mecanismos de Comunicação Bidirecional: Desenvolver ferramentas que possibilitem uma comunicação efetiva entre cidadãos e gestores, incluindo notificações automáticas e atualizações sobre o status das solicitações.
 
-## Justificativa
+# Justificativa
 
 O atendimento efetivo e a participação ativa dos cidadãos na gestão das prefeituras são desafios constantes para os gestores. Assim como na rede privada, onde cliente é considerado a chave para o sucesso de uma organização, as gestões públicas vêm amadurecendo este conceito, buscando melhorar o relacionamento com os cidadãos por meio da aproximação e da obtenção de conhecimento. 
 
 Melhorando assim o gerenciamento das relações com os cidadãos através de um sistema de informação web que possibilite aos gestores públicos a obtenção de informações relevantes para a tomada de decisão, direcionando-a ao perfil e necessidades explícitas da população. 
 
-## Público-Alvo
+# Público-Alvo
 O sistema web de ouvidoria para a Gestão Pública é projetado para atender a diferentes grupos de usuários que interagem com o serviço de gestão de solicitações e feedback dos cidadãos. Cada grupo de público-alvo possui necessidades e expectativas específicas que o sistema deve atender. 
 Características gerais:
 * Indivíduos que residem nas cidades atendidas pela administração pública;
@@ -45,7 +45,7 @@ Descrição: Indivíduos que residem nas cidades atendidas pela administração 
 Descrição: Funcionários da administração pública responsáveis por revisar, processar e responder às solicitações e feedback dos cidadãos.
 
 
-## Personas
+# Personas
 
 ### 1. Ana Luiza
    
@@ -131,7 +131,7 @@ Desafios: Problemas urbanos que impactam diretamente seu negócio e a necessidad
 
 Uso do Sistema: Utiliza o portal online e o aplicativo móvel para registrar e acompanhar solicitações relacionadas ao seu comércio. Valoriza a capacidade de fornecer feedback e avaliar a resolução dos problemas.
 
-## História de Usuário
+# História de Usuário
 
 Persona Pedro, um empresário local que enfrenta problemas urbanos que afetam seu comércio, quer um sistema eficiente para relatar esses problemas e acompanhar a resolução, para que possa minimizar os impactos negativos em seu negócio e manter a satisfação dos seus clientes.
 
@@ -154,7 +154,6 @@ Benefícios:
 Transparência: Pedro tem visibilidade completa sobre o status da sua solicitação, aumentando sua confiança na eficiência da prefeitura.
 Eficiência: O processo ágil de registro e acompanhamento reduz o tempo de resposta e ajuda a resolver o problema de maneira eficaz.
 Satisfação: Pedro sente-se valorizado e satisfeito com o atendimento, sabendo que sua solicitação foi tratada de forma rápida e eficaz.
-
 
 # Especificações do Projeto
 
@@ -193,7 +192,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RES-03| Falta de capital monetário para o desenvolvimento do projeto |
 
 
-## Catálogo de Serviços
+# Catálogo de Serviços
 
 ### **1. Cadastro e Gerenciamento de Requisições**
 
