@@ -155,26 +155,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir inclusão, edição, exclusão e consulta dos dados das solicitações, usuários, finalidades, unidades, setores e bairros; | ALTA | 
-|RF-02| Enviar e-mail para os usuários quando for incluída uma nova requisição;   | ALTA |
-|RF-03| Enviar sms para os usuários quando for incluída uma nova requisição;  | MÉDIA |
-|RF-04| O sistema deve permitir o cadastro de cidadãos, solicitando informações básicas como nome, CPF, endereço, e-mail, e telefone; | ALTA |
-|RF-05| O sistema deve permitir que os cidadãos se autentiquem usando um login e senha;  | ALTA |
-|RF-06| Permitir que sejam enviados feedbacks referentes às solicitações;  | MÉDIA |
-|RF-07| Emitir Relatórios, incluindo estatísticas como tipo de requisição, tempo médio de resposta;  | MÉDIA |
-|RF-08| O cidadão deve poder enviar novas requisições diretamente pelo sistema, podendo categorizar o tipo de requisição (sugestões, reclamações, denúncias, etc.).  | ALTA |
-
+|RF-01| Permitir o gerenciamento das solicitações; | ALTA | 
+|RF-02| Gestão de notificação (Disparos de e-mails);   | ALTA |
+|RF-03| O sistema deve permitir a gestão de usuários; | ALTA |
+|RF-04| O sistema deve permitir a gestão de feedbacks;  | MÉDIA |
+|RF-05| O sistema deve permitir a geração de relatórios detalhados que incluam estatísticas sobre o desempenho do atendimento às solicitações dos cidadãos.  | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| Possuir autenticação por login e senha | ALTA | 
+|RNF-01| Possuir autenticação e garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas. | ALTA | 
 |RNF-02| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência para usuários com diferentes níveis de familiaridade com tecnologia;   | ALTA |
-|RNF-03| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e desktops;   | ALTA |
-|RNF-04| O sistema deve garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas;   | ALTA |
-|RNF-05| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil;  | MÉDIA |
-|RNF-06| O sistema deve ser compatível com os principais navegadores web (Chrome, Firefox, Safari, Edge) e funcionar em diferentes sistemas operacionais;  | MÉDIA |
+|RNF-03| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e Web;   | ALTA |
+|RNF-04| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil;  | MÉDIA |
+|RNF-05| O sistema deve ser funcional em sistemas Web e mobile. | MÉDIA |
 
 ## Restrições
 
