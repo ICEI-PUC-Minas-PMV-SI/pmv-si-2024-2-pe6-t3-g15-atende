@@ -31,8 +31,19 @@ O atendimento efetivo e a participação ativa dos cidadãos na gestão das pref
 Melhorando assim o gerenciamento das relações com os cidadãos através de um sistema de informação web que possibilite aos gestores públicos a obtenção de informações relevantes para a tomada de decisão, direcionando-a ao perfil e necessidades explícitas da população. 
 
 ## Público-Alvo
+O sistema web de ouvidoria para a Gestão Pública é projetado para atender a diferentes grupos de usuários que interagem com o serviço de gestão de solicitações e feedback dos cidadãos. Cada grupo de público-alvo possui necessidades e expectativas específicas que o sistema deve atender. 
+Características gerais:
+* Indivíduos que residem nas cidades atendidas pela administração pública;
+* Pessoas acima de 15 anos de idade;
+* Pessoas com conhecimento na utilização de tecnologia e internet.
 
-Cidadãos, Servidores Públicos Operacionais, Gestores Públicos, Técnicos de Suporte e TI, Supervisores de Atendimento ao Cidadão 
+Os principais públicos-alvo são:
+### 1.Cidadãos:
+
+Descrição: Indivíduos que residem nas cidades atendidas pela administração pública e que desejam expressar suas opiniões, fazer solicitações, registrar reclamações ou fornecer sugestões sobre os serviços públicos.
+### 2.Gestores municipais
+Descrição: Funcionários da administração pública responsáveis por revisar, processar e responder às solicitações e feedback dos cidadãos.
+
 
 ## Personas
 
