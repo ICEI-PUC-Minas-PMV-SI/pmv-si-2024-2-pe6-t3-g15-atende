@@ -177,7 +177,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01| Possuir autenticação e garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas. | ALTA | 
-|RNF-02| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência para usuários com diferentes níveis de familiaridade com tecnologia;   | ALTA |
+|RNF-02| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência aos usuários;   | ALTA |
 |RNF-03| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e Web;   | ALTA |
 |RNF-04| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil;  | MÉDIA |
 |RNF-05| O sistema deve ser funcional em sistemas Web e mobile. | MÉDIA |
