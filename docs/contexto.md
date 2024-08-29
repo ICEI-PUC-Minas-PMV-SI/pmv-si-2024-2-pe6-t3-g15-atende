@@ -35,7 +35,8 @@ O sistema web de ouvidoria para a Gestão Pública é projetado para atender a d
 Características gerais:
 * Indivíduos que residem nas cidades atendidas pela administração pública;
 * Pessoas acima de 15 anos de idade;
-* Pessoas com conhecimento na utilização de tecnologia e internet.
+* Pessoas com conhecimento na utilização de tecnologia e internet;
+* Cidadãos brasileiros.
 
 Os principais públicos-alvo são:
 ### 1.Cidadãos:
