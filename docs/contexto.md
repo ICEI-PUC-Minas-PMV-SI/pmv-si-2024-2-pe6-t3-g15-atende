@@ -4,7 +4,7 @@ O avanço da tecnologia tem transformado os processos administrativos, aprimoran
 
 Sistemas de Informação desempenham um papel fundamental na gestão pública, ajudando a tomar decisões baseadas em dados sobre o perfil dos cidadãos (Heeks, 2006). Este trabalho propõe desenvolver um sistema de informação de Ouvidoria para melhorar a organização das requisições dos cidadãos e a comunicação entre governo e população, aumentando a satisfação com os serviços públicos.
 
-Referências:
+### Referências:
 * Davenport, T. H., & Short, J. E. (1990). The New Industrial Engineering: Information Technology and Business Process Redesign. Sloan Management Review, 31(4), 11-27.
 * Margetts, H., & Dunleavy, P. (2013). The Impact of the Internet on Governance: A Review. Government & Opposition, 48(2), 225-253.
 * Heeks, R. (2006). Implementing and Managing eGovernment: An International Text. SAGE Publications.
