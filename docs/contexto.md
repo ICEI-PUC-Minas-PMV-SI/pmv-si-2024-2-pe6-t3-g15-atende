@@ -1,8 +1,13 @@
 # Introdução
 
-O cenário dos processos administrativos evoluiu significativamente ao longo dos anos, com a tecnologia se tornando essencial para otimizar processos e melhorar a comunicação nas organizações. Essa evolução tecnológica não só aprimorou a eficiência operacional, mas também destacou a importância da satisfação do cliente no setor privado, com estratégias voltadas para a geração de valor e fidelização. No contexto governamental, o desafio de atender e comunicar-se efetivamente com os cidadãos permanece constante, exigindo que as estratégias públicas estejam alinhadas às expectativas da população. 
+O avanço da tecnologia tem transformado os processos administrativos, aprimorando a eficiência e a comunicação nas organizações (Davenport & Short, 1990). No setor privado, estratégias focadas na satisfação do cliente e na fidelização são essenciais. No setor público, a adaptação às novas tecnologias é crucial para uma comunicação eficaz com os cidadãos e para a gestão de expectativas (Margetts & Dunleavy, 2013).
 
-A informação, organizada e recuperada por Sistemas de Informação, é crucial para a gestão pública tomar decisões estratégicas baseadas no perfil dos cidadãos. 	Este trabalho propõe o desenvolvimento de um sistema de informação de Ouvidoria que auxilie no processo de organização das requisições dos cidadãos e ainda no processo de comunicação governo/cidadão, ou vice-versa. Dessa maneira, é possível traçar o perfil da população e aumentar a satisfação dos serviços prestados pela gestão pública. 
+Sistemas de Informação desempenham um papel fundamental na gestão pública, ajudando a tomar decisões baseadas em dados sobre o perfil dos cidadãos (Heeks, 2006). Este trabalho propõe desenvolver um sistema de informação de Ouvidoria para melhorar a organização das requisições dos cidadãos e a comunicação entre governo e população, aumentando a satisfação com os serviços públicos.
+
+Referências:
+* Davenport, T. H., & Short, J. E. (1990). The New Industrial Engineering: Information Technology and Business Process Redesign. Sloan Management Review, 31(4), 11-27.
+* Margetts, H., & Dunleavy, P. (2013). The Impact of the Internet on Governance: A Review. Government & Opposition, 48(2), 225-253.
+* Heeks, R. (2006). Implementing and Managing eGovernment: An International Text. SAGE Publications.
 
 ## Problema
 Em geral, no setor público, a insatisfação dos cidadãos quanto à qualidade do serviço prestado é alarmante, tanto no que diz respeito à ineficiência, ineficácia e/ou a falta de respostas direcionadas, quanto às solicitações. Resultando na desmotivação deles em expressar suas preferências, em servidores públicos que deixam a desejar na execução de seus trabalhos e, consequentemente, em serviços que deixam de ser oferecidos como realmente deveriam. 
