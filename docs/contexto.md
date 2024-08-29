@@ -166,10 +166,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir o gerenciamento das solicitações; | ALTA | 
-|RF-02| Gestão de notificação (Disparos de e-mails);   | ALTA |
-|RF-03| O sistema deve permitir a gestão de usuários; | ALTA |
-|RF-04| O sistema deve permitir a gestão de feedbacks;  | MÉDIA |
+|RF-01| Permitir o gerenciamento das solicitações. | ALTA | 
+|RF-02| Gestão de notificação (Disparos de e-mails).   | ALTA |
+|RF-03| O sistema deve permitir a gestão de usuários. | ALTA |
+|RF-04| O sistema deve permitir a gestão de feedbacks.  | MÉDIA |
 |RF-05| O sistema deve permitir a geração de relatórios detalhados que incluam estatísticas sobre o desempenho do atendimento às solicitações dos cidadãos.  | MÉDIA |
 
 ### Requisitos não Funcionais
@@ -177,9 +177,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01| Possuir autenticação e garantir a proteção dos dados dos cidadãos, implementando criptografia para dados sensíveis como senhas. | ALTA | 
-|RNF-02| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência aos usuários;   | ALTA |
-|RNF-03| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e Web;   | ALTA |
-|RNF-04| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil;  | MÉDIA |
+|RNF-02| O sistema deve ser intuitivo e fácil de usar, garantindo uma boa experiência aos usuários.   | ALTA |
+|RNF-03| Deve possuir uma interface responsiva que funcione bem em dispositivos móveis e Web.   | ALTA |
+|RNF-04| O sistema deve conter níveis de acesso, o nível cidadão-colaborador e o nível para gestão. Em cada um dos níveis serão apresentadas opções disponíveis para cada perfil.  | MÉDIA |
 |RNF-05| O sistema deve ser funcional em sistemas Web e mobile. | ALTA |
 
 ## Restrições
@@ -188,9 +188,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RES-01| O projeto deverá ser entregue até o final do semestre |
-|RES-02| Utilização de tecnologias gratuitas ou de parceria com a PUC |
-|RES-03| Falta de capital monetário para o desenvolvimento do projeto |
+|RES-01| O projeto deverá ser entregue até o final do semestre. |
+|RES-02| Utilização de tecnologias gratuitas ou de parceria com a PUC. |
+|RES-03| Falta de capital monetário para o desenvolvimento do projeto. |
 
 
 # Catálogo de Serviços
