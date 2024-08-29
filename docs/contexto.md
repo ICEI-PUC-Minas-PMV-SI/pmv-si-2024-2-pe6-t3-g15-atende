@@ -26,9 +26,7 @@ Objetivos específicos:
 
 # Justificativa
 
-O atendimento efetivo e a participação ativa dos cidadãos na gestão das prefeituras são desafios constantes para os gestores. Assim como na rede privada, onde cliente é considerado a chave para o sucesso de uma organização, as gestões públicas vêm amadurecendo este conceito, buscando melhorar o relacionamento com os cidadãos por meio da aproximação e da obtenção de conhecimento. 
-
-Melhorando assim o gerenciamento das relações com os cidadãos através de um sistema de informação web que possibilite aos gestores públicos a obtenção de informações relevantes para a tomada de decisão, direcionando-a ao perfil e necessidades explícitas da população. 
+O atendimento efetivo e a participação ativa dos cidadãos na gestão das prefeituras são desafios constantes para os gestores. Assim como na rede privada, onde cliente é considerado a chave para o sucesso de uma organização, as gestões públicas vêm amadurecendo este conceito, buscando melhorar o relacionamento com os cidadãos por meio da aproximação e da obtenção de conhecimento. O sistema web possibilita o gerenciamento e a obtenção de informações relevantes para a tomada de decisão, direcionando-a ao perfil e necessidades explícitas da população.
 
 # Público-Alvo
 O sistema web de ouvidoria para a Gestão Pública é projetado para atender a diferentes grupos de usuários que interagem com o serviço de gestão de solicitações e feedback dos cidadãos. Cada grupo de público-alvo possui necessidades e expectativas específicas que o sistema deve atender. 
