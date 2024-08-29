@@ -189,9 +189,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Utilização de tecnologias gratuitas ou de parceria com a PUC |
-|03| Falta de capital monetário para o desenvolvimento do projeto |
+|RES-01| O projeto deverá ser entregue até o final do semestre |
+|RES-02| Utilização de tecnologias gratuitas ou de parceria com a PUC |
+|RES-03| Falta de capital monetário para o desenvolvimento do projeto |
 
 
 ## Catálogo de Serviços
