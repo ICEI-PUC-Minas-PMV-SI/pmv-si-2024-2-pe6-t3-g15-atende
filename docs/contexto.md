@@ -295,6 +295,54 @@ A Matriz de Rastreabilidade de Interfaces mapeia a relação entre os requisitos
 
 **Público-Alvo:** Todos os usuários
 
+# Gerenciamento e Planejamento de Cronograma, Custos e Pessoal do Projeto
+
+## 1.Cronograma
+### 1.1 Estrutura Analítica do Projeto
+* Descritivo das Entregas: Desenvolvimento do sistema de ouvidoria, incluindo cadastro de requisições, notificações, feedbacks, relatórios, autenticação e controle de acesso.
+* Divisão das Entregas em Pacotes de Trabalho: Análise, design, desenvolvimento, testes, implantação.
+### 1.2 Definição das Atividades
+Atividades Principais:
+* Análise dos requisitos
+* Design do sistema
+* Desenvolvimento das funcionalidades
+* Testes e validação
+* Implantação e treinamento
+### 1.3 Sequenciamento das Atividades
+* Diagrama de Rede do Projeto: Sequência lógica das atividades e suas dependências.
+* Precedências e Dependências: Identificação de atividades predecessoras e sucessoras.
+### 1.4 Desenvolvimento do Cronograma
+* Linha do Tempo do Projeto: Definição das datas de início e término para cada atividade.
+* Marcos Principais: Entregas significativas como conclusão da análise, finalização do design, início dos testes.
+### 1.5 Controle do Cronograma
+* Mecanismos de Monitoramento: Revisões semanais do progresso.
+* Relatórios de Progresso: Atualizações sobre o status das atividades.
+* Plano de Ação para Atrasos: Ações corretivas para manter o cronograma em dia.
+## 2.Custos
+### 2.1 Estimativa de Custos
+* Estimativa de Custos por Pacote de Trabalho: Cálculo dos custos associados à análise, design, desenvolvimento, testes e implantação.
+* Estimativa de Contingência: Reserva para imprevistos.
+### 2.2 Orçamento
+* Orçamento Total do Projeto: Cálculo do custo total do projeto.
+* Distribuição de Custos por Fase: Alocação do orçamento para as diferentes fases do projeto.
+### 2.3 Controle de Custos
+* Método de Controle: Monitoramento dos custos reais versus planejados.
+## 3.Recursos
+### 3.1 Planejamento de Recursos
+* Identificação de Recursos Necessários: Recursos humanos e técnicos necessários para o desenvolvimento do sistema.
+* Responsabilidades e Papéis dos Membros da Equipe: Definição das funções e responsabilidades de cada membro da equipe.
+### 3.2 Desenvolvimento da Equipe
+* Plano de Treinamento e Capacitação: Treinamento necessário para a equipe.
+* Dinâmicas de Integração: Atividades para promover a colaboração e integração da equipe.
+### 3.3 Gerenciamento da Equipe
+* Monitoramento do Desempenho: Avaliação contínua do desempenho dos membros da equipe.
+* Gestão de Conflitos: Resolução de possíveis conflitos.
+* Plano de Motivação e Reconhecimento: Estratégias para manter a equipe motivada e reconhecida.
+### 3.4 Plano de Comunicação
+* Estratégia de Comunicação: Definição dos métodos e canais de comunicação.
+* Frequência e Forma dos Relatórios: Periodicidade e formato dos relatórios de progresso.
+* Plano de Reuniões: Agenda e frequência das reuniões de acompanhamento.
+
 # Arquitetura da Solução
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
