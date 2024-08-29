@@ -39,7 +39,7 @@ Características gerais:
 * Cidadãos brasileiros.
 
 Os principais públicos-alvo são:
-### 1.Cidadãos:
+### 1.Cidadãos
 
 Descrição: Indivíduos que residem nas cidades atendidas pela administração pública e que desejam expressar suas opiniões, fazer solicitações, registrar reclamações ou fornecer sugestões sobre os serviços públicos.
 ### 2.Gestores municipais
