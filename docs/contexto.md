@@ -139,6 +139,7 @@ Idade: 17
 Ocupação: Estudante do ensino médio e entregador de aplicativo
 
 Tecnologia: Utiliza intensamente o smartphone para se comunicar com amigos, fazer pedidos de comida e acompanhar as notícias.
+
 Objetivos: Utilizar o sistema para denunciar problemas como a falta de iluminação pública em ruas escuras, buracos nas ruas que dificultam a entrega e a falta de segurança em pontos de ônibus.
 
 Desafios: Sofre com a insegurança ao trabalhar à noite, enfrenta dificuldades para se locomover devido às péssimas condições das vias e se preocupa com a falta de opções de transporte público.
@@ -153,6 +154,7 @@ Idade: 18
 Ocupação: Estudante universitária e ativista ambiental
 
 Tecnologia: Utiliza redes sociais para divulgar causas ambientais, assina petições online e participa de grupos de discussão sobre sustentabilidade.
+
 Objetivos: Utilizar o sistema para denunciar problemas como a poluição de rios e córregos, a falta de coleta seletiva e a ocupação irregular de áreas verdes.
 
 Desafios: Observa a degradação ambiental em sua cidade e se preocupa com as consequências para a saúde pública. Dificulta encontrar locais adequados para atividades ao ar livre.
@@ -167,11 +169,28 @@ Idade: 20
 Ocupação: Estagiário em uma empresa de tecnologia e desenvolvedor de jogos independentes
 
 Tecnologia: Utiliza diversas ferramentas de desenvolvimento de software e acompanha as últimas tendências da área.
+
 Objetivos: Utilizar o sistema para propor soluções tecnológicas para problemas urbanos, como a criação de um aplicativo para monitorar a qualidade do ar ou a otimização das rotas de transporte público.
 
 Desafios: Observa a falta de infraestrutura tecnológica na cidade e a dificuldade em encontrar dados públicos sobre a cidade para desenvolver seus projetos.
 
 Uso do Sistema: Utilizaria o sistema para solicitar dados abertos sobre a cidade, propor soluções inovadoras para problemas urbanos e acompanhar a implementação de novas tecnologias.
+
+
+### 10. Jessica Rocha
+
+Idade: 22
+
+Ocupação: Voluntária em uma ONG e estudante de serviço social
+
+Tecnologia: Utiliza as redes sociais para divulgar o trabalho da ONG e buscar parcerias.
+
+Objetivos: Utilizar o sistema para denunciar a falta de acesso a serviços básicos como água potável, saneamento básico e assistência médica em comunidades carentes.
+
+Desafios: Observa a desigualdade social em sua cidade e se preocupa com as condições de vida das pessoas em situação de vulnerabilidade.
+
+Uso do Sistema: Utilizaria o sistema para solicitar a melhoria das condições de vida em comunidades carentes, a criação de programas sociais e a garantia dos direitos humanos.
+
 
 
 # História de Usuário
