@@ -160,6 +160,18 @@ Desafios: Observa a degradação ambiental em sua cidade e se preocupa com as co
 Uso do Sistema: Utilizaria o sistema para solicitar a limpeza de rios, a criação de mais áreas verdes e a fiscalização de empresas poluidoras.
 
 
+### 9. Miguel Souza
+
+Idade: 20
+
+Ocupação: Estagiário em uma empresa de tecnologia e desenvolvedor de jogos independentes
+
+Tecnologia: Utiliza diversas ferramentas de desenvolvimento de software e acompanha as últimas tendências da área.
+Objetivos: Utilizar o sistema para propor soluções tecnológicas para problemas urbanos, como a criação de um aplicativo para monitorar a qualidade do ar ou a otimização das rotas de transporte público.
+
+Desafios: Observa a falta de infraestrutura tecnológica na cidade e a dificuldade em encontrar dados públicos sobre a cidade para desenvolver seus projetos.
+
+Uso do Sistema: Utilizaria o sistema para solicitar dados abertos sobre a cidade, propor soluções inovadoras para problemas urbanos e acompanhar a implementação de novas tecnologias.
 
 
 # História de Usuário
