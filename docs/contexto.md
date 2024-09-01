@@ -333,15 +333,6 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: PHP com o framework Laravel para a construção do back-end, e Angular para o desenvolvimento da interface do usuário (front-end). Para o desenvolvimento de interfaces mobile, o framework React será utilizado, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-## Hospedagem
+# Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
