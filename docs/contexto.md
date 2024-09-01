@@ -330,7 +330,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: PHP com o framework Laravel para a construção do back-end, e Angular para o desenvolvimento da interface do usuário (front-end). Para o desenvolvimento de interfaces mobile, o framework React será utilizado, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
