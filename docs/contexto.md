@@ -130,6 +130,26 @@ Desafios: Problemas urbanos que impactam diretamente seu negócio e a necessidad
 
 Uso do Sistema: Utiliza o portal online e o aplicativo móvel para registrar e acompanhar solicitações relacionadas ao seu comércio. Valoriza a capacidade de fornecer feedback e avaliar a resolução dos problemas.
 
+
+
+### 7. Pedro Ferreira
+
+Idade: 17
+
+Ocupação: Estudante do ensino médio e entregador de aplicativo
+
+Tecnologia: Utiliza intensamente o smartphone para se comunicar com amigos, fazer pedidos de comida e acompanhar as notícias.
+Objetivos: Utilizar o sistema para denunciar problemas como a falta de iluminação pública em ruas escuras, buracos nas ruas que dificultam a entrega e a falta de segurança em pontos de ônibus.
+
+Desafios: Sofre com a insegurança ao trabalhar à noite, enfrenta dificuldades para se locomover devido às péssimas condições das vias e se preocupa com a falta de opções de transporte público.
+
+Uso do Sistema: Utilizaria o sistema para solicitar a reparação de ruas, a instalação de mais postes de luz e a melhoria da segurança pública em sua região.
+
+
+
+
+
+
 # História de Usuário
 
 Persona Pedro, um empresário local que enfrenta problemas urbanos que afetam seu comércio, quer um sistema eficiente para relatar esses problemas e acompanhar a resolução, para que possa minimizar os impactos negativos em seu negócio e manter a satisfação dos seus clientes.
