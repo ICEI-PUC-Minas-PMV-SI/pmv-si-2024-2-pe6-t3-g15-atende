@@ -274,15 +274,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 **Público-Alvo:** Cidadãos, Gestores Públicos, Servidores Públicos Operacionais
 
-### **2. Notificações por E-mail e SMS**
+### **2. Notificações por E-mail**
 
 **Descrição:** Envia notificações automatizadas para os usuários sobre o status das suas solicitações.
 
 **Funcionalidades:**
 
 **•	Notificação por E-mail:** Envio de e-mails quando novas solicitações são registradas ou atualizadas.
-
-**•	Notificação por SMS:** Envio de mensagens SMS para manter os usuários informados sobre o progresso de suas solicitações. 
 
 **•	Público-Alvo: Cidadãos**
 
