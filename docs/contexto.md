@@ -10,9 +10,7 @@ Sistemas de Informação desempenham um papel fundamental na gestão pública, a
 * Heeks, R. (2006). Implementing and Managing eGovernment: An International Text. SAGE Publications.
 
 # Problema
-No setor público, a insatisfação dos cidadãos com a qualidade dos serviços prestados é uma preocupação crescente. Essa insatisfação decorre da ineficiência, falta de eficácia e respostas inadequadas às solicitações, levando à desmotivação dos cidadãos em expressar suas opiniões. Isso também resulta em servidores públicos que não atendem às expectativas e, consequentemente, em serviços que não são oferecidos de forma satisfatória.
 
-A ausência de um sistema web eficiente para gerenciar e responder às solicitações contribui significativamente para o problema. Frequentemente, cidadãos recorrem a redes sociais, como o Facebook, para manifestar suas queixas. Essas manifestações são predominantemente negativas e não recebem resposta adequada, o que amplifica o descontentamento e gera uma repercussão ainda maior. A falta de uma plataforma centralizada para organizar e responder a essas queixas agrava a situação, tornando a comunicação e a resolução de problemas ainda mais desafiadoras.
 
 # Objetivos
 
