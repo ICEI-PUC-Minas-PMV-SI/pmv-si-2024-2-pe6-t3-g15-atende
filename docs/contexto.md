@@ -332,6 +332,13 @@ Definição de como o software é estruturado em termos dos componentes que faze
 ## Tecnologias Utilizadas
 Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: PHP com o framework Laravel para a construção do back-end e Angular para o desenvolvimento da interface do usuário (front-end). Para as interfaces mobile, será utilizado o framework React, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos. O Visual Studio Code será utilizado como IDE principal, enquanto o Postman auxiliará nos testes de API. O banco de dados escolhido para a aplicação é o PostgreSQL.
 
-# Hospedagem
+## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
+
+> **Links Úteis**:
+>
+> - [Website com GitHub Pages](https://pages.github.com/)
+> - [Programação colaborativa com Repl.it](https://repl.it/)
+> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
+> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
