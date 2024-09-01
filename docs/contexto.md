@@ -330,8 +330,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 
 ## Tecnologias Utilizadas
-
-Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: PHP com o framework Laravel para a construção do back-end, e Angular para o desenvolvimento da interface do usuário (front-end). Para o desenvolvimento de interfaces mobile, o framework React será utilizado, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos.
+Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: PHP com o framework Laravel para a construção do back-end e Angular para o desenvolvimento da interface do usuário (front-end). Para as interfaces mobile, será utilizado o framework React, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos. O Visual Studio Code será utilizado como IDE principal, enquanto o Postman auxiliará nos testes de API. O banco de dados escolhido para a aplicação é o PostgreSQL.
 
 # Hospedagem
 
