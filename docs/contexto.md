@@ -132,7 +132,7 @@ Uso do Sistema: Utiliza o portal online e o aplicativo móvel para registrar e a
 
 
 
-### 7. Pedro Ferreira
+### 7. Marcos Ferreira
 
 Idade: 17
 
@@ -146,6 +146,18 @@ Desafios: Sofre com a insegurança ao trabalhar à noite, enfrenta dificuldades 
 Uso do Sistema: Utilizaria o sistema para solicitar a reparação de ruas, a instalação de mais postes de luz e a melhoria da segurança pública em sua região.
 
 
+### 8. Ana Clara
+
+Idade: 18
+
+Ocupação: Estudante universitária e ativista ambiental
+
+Tecnologia: Utiliza redes sociais para divulgar causas ambientais, assina petições online e participa de grupos de discussão sobre sustentabilidade.
+Objetivos: Utilizar o sistema para denunciar problemas como a poluição de rios e córregos, a falta de coleta seletiva e a ocupação irregular de áreas verdes.
+
+Desafios: Observa a degradação ambiental em sua cidade e se preocupa com as consequências para a saúde pública. Dificulta encontrar locais adequados para atividades ao ar livre.
+
+Uso do Sistema: Utilizaria o sistema para solicitar a limpeza de rios, a criação de mais áreas verdes e a fiscalização de empresas poluidoras.
 
 
 
