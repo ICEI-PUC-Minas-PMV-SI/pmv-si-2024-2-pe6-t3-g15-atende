@@ -15,8 +15,8 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 
 ## Arquitetura
-
-
+docs/img/{Api}.png
+![arq](https://github.com/user-attachments/docs/img/{Api}.png
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
