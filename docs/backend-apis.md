@@ -56,7 +56,161 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ## API Endpoints
 
+### Endpoint 1
+- Método: GET
+- URL: /api/servicos
+- 
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+    "status": true,
+    "message": "Serviços consultados com sucesso!",
+    "servicos": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 3,
+                "user_id": 1,
+                "empresa": "EcoColeta",
+                "cpf_cnpj": "233.280.938-90",
+                "descricao": "Coleta e reciclagem de resíduos sólidos, promovendo a sustentabilidade urbana.",
+                "status": "disponivel",
+                "categoria_id": 5,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 4,
+                "user_id": 1,
+                "empresa": "LuzCerta",
+                "cpf_cnpj": "236.530.903-48",
+                "descricao": "Manutenção da iluminação pública, garantindo segurança e eficiência.",
+                "status": "disponivel",
+                "categoria_id": 5,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 5,
+                "user_id": 1,
+                "empresa": "Pavimenta Brasil",
+                "cpf_cnpj": "869.778.902-82",
+                "descricao": "Pavimentação e reparo de estradas e vias urbanas.",
+                "status": "disponivel",
+                "categoria_id": 2,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 6,
+                "user_id": 1,
+                "empresa": "VerdeVivo",
+                "cpf_cnpj": "071.880.548-56",
+                "descricao": "Serviços de jardinagem e paisagismo para espaços públicos.",
+                "status": "indisponivel",
+                "categoria_id": 1,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 7,
+                "user_id": 1,
+                "empresa": "ConstruMais",
+                "cpf_cnpj": "703.247.960-39",
+                "descricao": "Construção de equipamentos públicos, como escolas e centros de saúde.",
+                "status": "disponivel",
+                "categoria_id": 3,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 8,
+                "user_id": 1,
+                "empresa": "Limpeza Total",
+                "cpf_cnpj": "000.353.380-43",
+                "descricao": "Gestão e manutenção de espaços verdes e parques públicos.",
+                "status": "indisponivel",
+                "categoria_id": 4,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 9,
+                "user_id": 1,
+                "empresa": "Transito-Block",
+                "cpf_cnpj": "687.654.286-53",
+                "descricao": "Sinalização e gestão de trânsito para segurança urbana.",
+                "status": "indisponivel",
+                "categoria_id": 4,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 10,
+                "user_id": 1,
+                "empresa": "Cultura em Foco",
+                "cpf_cnpj": "784.491.782-49",
+                "descricao": "Organização de eventos culturais e atividades comunitárias.",
+                "status": "disponivel",
+                "categoria_id": 5,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 11,
+                "user_id": 1,
+                "empresa": "EducaAmbiente",
+                "cpf_cnpj": "829.407.859-71",
+                "descricao": "Educação ambiental e programas de conscientização comunitária.",
+                "status": "indisponivel",
+                "categoria_id": 3,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            },
+            {
+                "id": 12,
+                "user_id": 1,
+                "empresa": "Dietrich LLC",
+                "cpf_cnpj": "437.835.891-41",
+                "descricao": "Assessoria em licenciamento ambiental e conformidade.",
+                "status": "indisponivel",
+                "categoria_id": 1,
+                "created_at": "2024-09-29T21:25:25.000000Z",
+                "updated_at": "2024-09-29T21:25:25.000000Z"
+            }
+        ],
+        "first_page_url": "http://127.0.0.1:8000/api/servicos?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://127.0.0.1:8000/api/servicos?page=1",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/servicos?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "next_page_url": null,
+        "path": "http://127.0.0.1:8000/api/servicos",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 10,
+        "total": 10
+    }
+}
 
+    ```
 ### Endpoint 1
 - Método: POST
 - URL: /api/register
@@ -182,7 +336,6 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     ### Endpoint 4
 - Método: DELETE
 - URL: /api/servicos/delete/1
-- 
 - Resposta:
   - Sucesso (200 OK)
     ```
