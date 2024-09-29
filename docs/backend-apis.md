@@ -27,11 +27,20 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-01| Cadastro das solicitações. | 
+|RF-02| Gerenciamento das solicitações. | 
+|RF-03| Gerenciamento dos serviços.  | 
+|RF-04| Cadastros dos serviços.  | 
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-01| A API deve ser capaz de lidar com um grande volume de solicitações, tanto de cidadãos quanto de empresas parceiras. | 
+|RF-02| A API deve estar disponível 24 horas por dia, 7 dias por semana, com alta disponibilidade e tempo de resposta rápido.|
+|RF-03| A API deve utilizar banco de dados relacional.|
 
 ## Tecnologias Utilizadas
 
@@ -44,8 +53,6 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 * Eloquent ORM: Fornecido pelo Laravel, o Eloquent ORM permite que você interaja com o banco de dados PostgreSQL utilizando objetos PHP. Isso simplifica significativamente a escrita de consultas SQL e o gerenciamento de dados.
 
 * JWT (JSON Web Tokens): Uma tecnologia de autenticação e autorização que permite criar tokens seguros para autenticar usuários e controlar o acesso a recursos da API. JWTs são compactas, seguras e fáceis de usar.
-
-[Lista das tecnologias principais que serão utilizadas no projeto.]
 
 ## API Endpoints
 
@@ -79,7 +86,13 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Será utilizada o uso de JWT (JSON Web Tokens), proporcionando uma forma eficaz de autenticação e autorização.
+
+Autenticação com JWT: Após o login, o servidor gerará um JWT contendo as credenciais e permissões do usuário. Esse token será enviado nas requisições à API, garantindo que apenas usuários autenticados possam acessar os recursos protegidos.
+
+Autorização de Acesso: O JWT permitirá o controle de permissões, verificando se o usuário tem as credenciais necessárias para realizar operações específicas, como registro de demandas, consulta de status ou acesso a dados administrativos.
+
+Expiração e Assinatura de Tokens: Os tokens terão uma data de expiração para limitar o tempo de sessão, além de serem assinados, garantindo que não possam ser modificados ou reutilizados indevidamente, oferecendo uma camada adicional de segurança.
 
 ## Implantação
 
