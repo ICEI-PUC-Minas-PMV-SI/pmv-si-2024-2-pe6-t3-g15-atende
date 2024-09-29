@@ -1,21 +1,22 @@
 # APIs e Web Services
-
-O planejamento de uma aplicação de APIS Web é uma etapa fundamental para o sucesso do projeto. Ao planejar adequadamente, você pode evitar muitos problemas e garantir que a sua API seja segura, escalável e eficiente.
-
-Aqui estão algumas etapas importantes que devem ser consideradas no planejamento de uma aplicação de APIS Web.
-
-[Inclua uma breve descrição do projeto.]
+A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitindo a visualização e gestão centralizada das solicitações dos cidadãos. Através da API, empresas podem oferecer serviços com base nas demandas públicas, promovendo parcerias público-privadas. 
 
 ## Objetivos da API
 
-O primeiro passo é definir os objetivos da sua API. O que você espera alcançar com ela? Você quer que ela seja usada por clientes externos ou apenas por aplicações internas? Quais são os recursos que a API deve fornecer?
+* Facilitar o Gerenciamento de Solicitações: Permitir que prefituras e empresas conveniadas registrem, visualizem, acompanhando detalhes, status e histórico de cada solicitação.
 
-[Inclua os objetivos da sua api.]
+* Promover a Integração Público-Privada: Proporcionar uma plataforma para que empresas parceiras possam se conectar às prefeituras, oferecendo soluções e serviços com base nas demandas dos cidadãos, criando parcerias eficientes.
+
+* Oferecer Transparência e Colaboração: Facilitar o compartilhamento de dados e status em tempo real entre prefeituras e empresas conveniadas, promovendo uma comunicação eficaz e garantindo transparência na gestão das solicitações.
+
+* Facilitar a Oferta de Serviços Personalizados: Permitir que empresas analisem as solicitações dos cidadãos e ofereçam serviços especializados às prefeituras, de acordo com as demandas e problemas detectados.
+
+* Fornecer Relatórios e Análises: Disponibilizar relatórios detalhados e métricas sobre as solicitações, permitindo que prefeituras e empresas conveniadas avaliem o desempenho, identificando áreas de melhoria e oportunidades de parceria.
 
 
 ## Arquitetura
 
-[Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
+
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
