@@ -123,7 +123,36 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     }
     ```
 
-
+### Endpoint 3
+- Método: POST
+- URL: /api/servicos?nome_razaosocial=Empresa x&cpf_cnpj=144114141414&descricao=teste &categoria_id=1
+- Parâmetros:
+  - param1: nome_razaosocial
+  - param2: cpf_cnpj
+  - param3: descricao
+  - param4: categoria_id
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+    "message": "Serviço criado com sucesso!"
+    }
+    ```
+  - Erro (422)
+    ```
+    {
+      "message": "Error",
+      "error":
+        {
+    "message": "O campo CPF/CNPJ é obrigatório.",
+    "errors": {
+        "cpf_cnpj": [
+            "O campo CPF/CNPJ é obrigatório."
+        ]
+    }
+}
+    }
+    ```
 ## Considerações de Segurança
 
 Será utilizada o uso de JWT (JSON Web Tokens), proporcionando uma forma eficaz de autenticação e autorização.
