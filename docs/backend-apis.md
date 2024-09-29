@@ -15,7 +15,6 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 
 ## Arquitetura
-![arq](https://github.com/docs/img/{Api}.png)
 ![arq](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/%7BApi%7D.png)
 
 ## Modelagem da Aplicação
