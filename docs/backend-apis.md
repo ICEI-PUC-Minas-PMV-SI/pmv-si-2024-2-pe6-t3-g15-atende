@@ -319,7 +319,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     ```
     {
     "message": "Serviço atualizado com sucesso!"
-}
+    }
     ```
   - Erro (404)
     ```
