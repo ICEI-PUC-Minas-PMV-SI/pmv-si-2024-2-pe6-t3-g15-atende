@@ -217,7 +217,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 - Parâmetros:
   - param1: name
   - param2: email
-  - parem3: password
+  - param3: password
 - Resposta:
   - Sucesso (200 OK)
     ```
@@ -229,7 +229,6 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     ```
   - Erro (401)
     ```
-    // No caso abaixo simulando um erro em que o usuário, não digita o name e tenta colocar um e-mail já registrado.
     {
       "message": "Error",
       "error": {
