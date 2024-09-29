@@ -211,7 +211,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 }
 
     ```
-### Endpoint 1
+### Endpoint 2
 - Método: POST
 - URL: /api/register
 - Parâmetros:
@@ -248,7 +248,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     }
     ```
 
-### Endpoint 2
+### Endpoint 3
 - Método: POST
 - URL: /api/login
 - Parâmetros:
@@ -276,7 +276,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     }
     ```
 
-### Endpoint 3
+### Endpoint 4
 - Método: POST
 - URL: /api/servicos?nome_razaosocial=Empresa x&cpf_cnpj=144114141414&descricao=teste &categoria_id=1
 - Parâmetros:
@@ -307,7 +307,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
     }
     ```
 
-  ### Endpoint 4
+  ### Endpoint 5
 - Método: PUT
 - URL: /api/servicos/update/1?nome_razaosocial=TESTE EMPRESA 2&cpf_cnpj=1231323333&descricao=Empresa Teste W
 - Parâmetros:
@@ -331,16 +331,16 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
         }
     }
     ```
-
-    ### Endpoint 4
+  ### Endpoint 6
 - Método: DELETE
 - URL: /api/servicos/delete/1
+
 - Resposta:
   - Sucesso (200 OK)
     ```
-   {
-    "message": "Serviço deletado com sucesso!"
-  }
+    {
+    "message": "Serviço  deletado com sucesso!!"
+    }
     ```
   - Erro (404)
     ```
