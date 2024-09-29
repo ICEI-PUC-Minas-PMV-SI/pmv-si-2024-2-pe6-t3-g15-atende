@@ -18,8 +18,8 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 ![arq](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/%7BApi%7D.png)
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
+![image](https://github.com/user-attachments/assets/71c301fe-6165-443d-b8e4-d22d9d5ddcd2)
 
 ## Fluxo de Dados
 
