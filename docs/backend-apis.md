@@ -56,29 +56,69 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ## API Endpoints
 
-[Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
 ### Endpoint 1
-- Método: GET
-- URL: /endpoint1
+- Método: POST
+- URL: /api/register
 - Parâmetros:
-  - param1: [descrição]
+  - param1: name
+  - param2: email
+  - parem3: password
 - Resposta:
   - Sucesso (200 OK)
     ```
     {
-      "message": "Success",
-      "data": {
-        ...
+    "status": true,
+    "message": "Usuário criado com Sucesso",
+    "token": "4|1qg97paiLgsSSSsRD6620mYaG3ZRwQpWIiE31bQRe637b2f1"
+    }
+    ```
+  - Erro (401)
+    ```
+    // No caso abaixo simulando um erro em que o usuário, não digita o name e tenta colocar um e-mail já registrado.
+    {
+      "message": "Error",
+      "error": {
+        {
+        "status": false,
+        "message": "Erro de validação",
+        "errors": {
+        "name": [
+            "The name field is required."
+        ],
+        "email": [
+            "The email has already been taken."
+        ]
+    }
+}
       }
     }
     ```
-  - Erro (4XX, 5XX)
+
+### Endpoint 2
+- Método: POST
+- URL: /api/login
+- Parâmetros:
+  - param1: email
+  - param2: password
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+    "status": true,
+    "message": "Login realizado com sucesso!",
+    "token": "1|Alnm3hwcoTWnd5vpuNFKiykwvHqrQeMb1XERtk5Z6577078d"
+    }
+    ```
+  - Erro (401)
     ```
     {
       "message": "Error",
       "error": {
-        ...
+        {
+          "status": false,
+          "message": "Algo deu errado!"
+        }
       }
     }
     ```
