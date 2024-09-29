@@ -153,6 +153,53 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 }
     }
     ```
+
+  ### Endpoint 4
+- Método: PUT
+- URL: /api/servicos/update/1?nome_razaosocial=TESTE EMPRESA 2&cpf_cnpj=1231323333&descricao=Empresa Teste W
+- Parâmetros:
+  - param1: nome_razaosocial
+  - param2: cpf_cnpj
+  - param3: descricao
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+    "message": "Serviço atualizado com sucesso!"
+}
+    ```
+  - Erro (404)
+    ```
+    {
+      "message": "Error",
+      "error":
+        {
+    "message": "Serviço não encontrado"
+        }
+    }
+    ```
+
+    ### Endpoint 4
+- Método: DELETE
+- URL: /api/servicos/delete/1
+- 
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+   {
+    "message": "Serviço deletado com sucesso!"
+  }
+    ```
+  - Erro (404)
+    ```
+    {
+      "message": "Error",
+      "error":
+        {
+    "message": "Serviço não encontrado"
+        }
+    }
+    ```
 ## Considerações de Segurança
 
 Será utilizada o uso de JWT (JSON Web Tokens), proporcionando uma forma eficaz de autenticação e autorização.
