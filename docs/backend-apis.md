@@ -25,14 +25,14 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
 
 ## Requisitos Funcionais
 
-|ID    | Descrição do Requisito  |
+|ID    | Descrição do Requisito  |     |
 |------|-----------------------------------------|----|
 |RF-01| Cadastro das solicitações. | 
 |RF-02| Gerenciamento das solicitações. | 
 
 ## Requisitos Não Funcionais
 
-|ID    | Descrição do Requisito  | 
+|ID    | Descrição do Requisito  |     |
 |------|-----------------------------------------|----|
 |RF-01| A API deve ser capaz de lidar com um grande volume de solicitações. | 
 |RF-02| A API deve estar disponível 24 horas por dia, 7 dias por semana, com alta disponibilidade e tempo de resposta rápido.|
