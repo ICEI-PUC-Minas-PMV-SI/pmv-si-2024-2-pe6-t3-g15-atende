@@ -13,7 +13,7 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
 
 
 ## Arquitetura
-!{image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/%7BApi%7D%20(2).png)
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/%7BApi%7D%20(2).png)
 
 ## Modelagem da Aplicação
 
