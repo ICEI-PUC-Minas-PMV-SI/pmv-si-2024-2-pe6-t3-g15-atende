@@ -1,5 +1,5 @@
 # APIs e Web Services
-Facilitar a integração entre cidadãos e gestores municipais através de serviços web que promovem a comunicação eficiente e a gestão transparente das demandas públicas." 
+Facilitar a integração entre cidadãos e gestores municipais através de serviços web que promovem a comunicação eficiente e a gestão transparente das demandas públicas.
 
 ## Objetivos da API
 
@@ -29,28 +29,26 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
 |------|-----------------------------------------|----|
 |RF-01| Cadastro das solicitações. | 
 |RF-02| Gerenciamento das solicitações. | 
-|RF-03| Gerenciamento dos serviços.  | 
-|RF-04| Cadastros dos serviços.  | 
 
 ## Requisitos Não Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A API deve ser capaz de lidar com um grande volume de solicitações, tanto de cidadãos quanto de empresas parceiras. | 
+|RF-01| A API deve ser capaz de lidar com um grande volume de solicitações. | 
 |RF-02| A API deve estar disponível 24 horas por dia, 7 dias por semana, com alta disponibilidade e tempo de resposta rápido.|
 |RF-03| A API deve utilizar banco de dados relacional.|
 
 ## Tecnologias Utilizadas
 
-* PHP: A linguagem de programação que serve como base para a construção da aplicação. O PHP é amplamente utilizado para desenvolvimento web, sendo conhecido por sua facilidade de aprendizado e grande comunidade.
+* ASP.NET Core: Para o desenvolvimento da API, garantindo desempenho, segurança e suporte a padrões modernos de arquitetura RESTful.
 
-* Laravel: Um framework PHP que agiliza o desenvolvimento de aplicações web, fornecendo uma estrutura robusta e organizada. Com o Laravel, é possível criar APIs RESTful de forma eficiente e segura.
+* MySQL: Banco de dados relacional para armazenamento de dados das solicitações e usuários, integrado ao ASP.NET Core via Entity Framework.
 
-* PostgreSQL: Um banco de dados relacional poderoso e escalável, ideal para armazenar grandes volumes de dados. O PostgreSQL é conhecido por sua confiabilidade e flexibilidade.
-
-* Eloquent ORM: Fornecido pelo Laravel, o Eloquent ORM permite que você interaja com o banco de dados PostgreSQL utilizando objetos PHP. Isso simplifica significativamente a escrita de consultas SQL e o gerenciamento de dados.
+* Identity Server/Autenticação JWT: Para gerenciar autenticação e autorização, garantindo acesso seguro à API.
 
 * JWT (JSON Web Tokens): Uma tecnologia de autenticação e autorização que permite criar tokens seguros para autenticar usuários e controlar o acesso a recursos da API. JWTs são compactas, seguras e fáceis de usar.
+
+* Docker: Para empacotamento e implantação da API de forma portátil e escalável.
 
 ## API Endpoints
 
