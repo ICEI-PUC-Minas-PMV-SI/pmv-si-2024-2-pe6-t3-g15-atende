@@ -54,7 +54,7 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
 
 ### Endpoint 1
 - Método: GET
-- URL: /api/servicos
+- URL: /api/solicitacoes
 - 
 - Resposta:
   - Sucesso (200 OK)
