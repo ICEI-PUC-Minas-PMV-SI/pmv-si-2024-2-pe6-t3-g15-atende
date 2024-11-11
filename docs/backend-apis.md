@@ -17,7 +17,7 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
 
 ## Modelagem da Aplicação
 
-![image](https://github.com/user-attachments/assets/71c301fe-6165-443d-b8e4-d22d9d5ddcd2)
+![image][(https://github.com/user-attachments/assets/71c301fe-6165-443d-b8e4-d22d9d5ddcd2)](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/atende_db.png)
 
 ## Fluxo de Dados
 
