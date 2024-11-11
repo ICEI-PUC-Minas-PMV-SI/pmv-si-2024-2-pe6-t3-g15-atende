@@ -1,6 +1,5 @@
 # Front-end Web
-
-[Inclua uma breve descrição do projeto e seus objetivos.]
+O front-end da aplicação foi desenvolvido para oferecer uma interface de fácil acesso e visualmente atraente, permitindo que cidadãos enviem solicitações, reclamações e sugestões de forma organizada. Projetado como uma ponte eficiente entre a população e a administração pública, ele facilita o engajamento cidadão e o rápido atendimento das demandas, promovendo uma comunicação direta e funcional
 
 ## Tecnologias Utilizadas
  * Para o desenvolvimento do front-end da aplicação, foram utilizadas as seguintes tecnologias:
