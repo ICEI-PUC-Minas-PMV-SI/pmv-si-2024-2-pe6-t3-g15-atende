@@ -3,7 +3,17 @@
 [Inclua uma breve descrição do projeto e seus objetivos.]
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+ * Para o desenvolvimento do front-end da aplicação, foram utilizadas as seguintes tecnologias:
+
+ * Blade (Laravel): Motor de templates nativo do Laravel, utilizado para construir as interfaces de usuário de forma integrada com o back-end. O Blade permite a criação de layouts dinâmicos e reutilizáveis com sintaxe intuitiva, facilitando a manipulação de dados do backend e o controle de fluxo diretamente nas views.
+
+ * Componentes Blade: Aproveitando o sistema de componentes do Blade, a interface é modularizada, melhorando a organização do código e a reutilização de elementos da interface, como botões, formulários e layouts, reduzindo redundâncias e mantendo a consistência visual.
+
+ * Bootstrap: Framework CSS utilizado para criar uma base responsiva e moderna. Com suas classes predefinidas e grid flexível, o Bootstrap facilita a adaptação da interface para diferentes tamanhos de tela, oferecendo uma aparência visualmente agradável e compatível com diversos dispositivos.
+
+ * Tabler Icons: Biblioteca de ícones utilizada para enriquecer a interface visual da aplicação. Com uma ampla gama de ícones disponíveis e um design moderno e minimalista, o Tabler Icons melhora a usabilidade, ajudando os usuários a identificar funções e ações no sistema de maneira rápida e intuitiva.
+
+ * JavaScript: JavaScript puro foi utilizado para adicionar interatividade leve ao front-end e manipulação do DOM, onde necessário, facilitando uma navegação mais dinâmica e responsiva sem necessidade de recarregamento da página.
 
 ## Arquitetura
 
