@@ -316,7 +316,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 **•	Login e Senha:** Requer autenticação por login e senha para acesso ao sistema.
 
-**•	Controle de Acesso:** Definição de níveis de acesso (cidadão-colaborador e gestão) e restrição de funcionalidades com base no perfil do usuário.
+**•	Controle de Acesso:** Definição de níveis de acesso (cidadão e administrador) e restrição de funcionalidades com base no perfil do usuário.
 
 **Público-Alvo:** Todos os usuários
 
@@ -328,7 +328,11 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 
 ## Tecnologias Utilizadas
-Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: PHP com o framework Laravel para a construção do back-end e Angular para o desenvolvimento da interface do usuário (front-end). Para as interfaces mobile, será utilizado o framework React, garantindo uma experiência de usuário fluida e responsiva em diferentes dispositivos. O Visual Studio Code será utilizado como IDE principal, enquanto o Postman auxiliará nos testes de API. O banco de dados escolhido para a aplicação é o PostgreSQL.
+Para desenvolver esta solução, foram escolhidas as seguintes tecnologias: o PHP com o framework Laravel para a construção do back-end, utilizando também o próprio Blade do Laravel e seus componentes para o desenvolvimento da interface do usuário (front-end). Dessa forma, garantimos uma integração mais nativa e eficiente entre o front-end e o back-end dentro da estrutura do Laravel.
+
+Para as interfaces mobile, foi escolhido o framework React Native, proporcionando uma experiência de usuário fluida e responsiva em diferentes dispositivos. Como IDE principal, será utilizado o Visual Studio Code, enquanto o Postman auxiliará nos testes de API e validações de integração.
+
+O banco de dados escolhido para a aplicação é o PostgreSQL, devido à sua robustez e capacidade de lidar com grandes volumes de dados de forma eficiente.
 
 ## Hospedagem
 
