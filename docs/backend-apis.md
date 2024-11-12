@@ -373,6 +373,16 @@ Expiração e Assinatura de Tokens: Os tokens terão uma data de expiração par
 
 Testes Unitários:
 
+Verificam o funcionamento individual de funções e métodos relacionados à criação, atualização, listagem e exclusão de serviços. Os testes realizados incluem:*
+* it_can_create_a_servico(): Testa a criação de um serviço e verifica se os dados são armazenados corretamente no banco de dados.
+* it_can_update_a_servico(): Testa a atualização de um serviço existente, garantindo que os dados sejam alterados corretamente.
+* it_can_list_servicos(): Testa a listagem de serviços, garantindo que a estrutura da resposta JSON esteja correta.
+* it_can_delete_a_servico(): Testa a exclusão de um serviço, verificando se ele foi removido do banco de dados.
+  
+Ferramentas Utilizadas
+PHPUnit: Para implementar e executar testes unitários e de integração no Laravel.
+Postman: Para automação de testes de API e testes manuais.
+
 # Referências
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
