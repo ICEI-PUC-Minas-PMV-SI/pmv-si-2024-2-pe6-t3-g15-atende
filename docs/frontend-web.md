@@ -32,7 +32,7 @@ O front-end da aplicação foi desenvolvido para oferecer uma interface de fáci
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+Desenvolvemos a interface para ser completamente responsiva, capaz de se adaptar a diversos tamanhos de tela, como desktops, tablets e smartphones. Com o uso de Media Queries e o suporte flexível do Material-UI, o layout e os componentes se ajustam automaticamente, assegurando que elementos como botões, campos de texto e menus estejam sempre visíveis e bem distribuídos, promovendo uma experiência de uso fluida e consistente em qualquer dispositivo.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
