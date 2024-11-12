@@ -1,19 +1,18 @@
 # APIs e Web Services
-Facilitar a integração entre cidadãos e gestores municipais através de serviços web que promovem a comunicação eficiente e a gestão transparente das demandas públicas.
+A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitindo a visualização e gestão centralizada das solicitações dos cidadãos. Através da API, empresas podem oferecer serviços com base nas demandas públicas, promovendo parcerias público-privadas. 
 
 ## Objetivos da API
 
-* Gerenciamento centralizado de solicitações: Prover endpoints para que cidadãos enviem solicitações, reclamações e sugestões de forma organizada.
+* Facilitar o Gerenciamento de Solicitações: Permitir que prefituras e empresas conveniadas registrem, visualizem, acompanhando detalhes, status e histórico de cada solicitação.
 
-* Acompanhamento de demandas: Permitir que os gestores públicos atualizem o status das solicitações e que os cidadãos acompanhem essas mudanças em tempo real.
+* Promover a Integração Público-Privada: Proporcionar uma plataforma para que empresas parceiras possam se conectar às prefeituras, oferecendo soluções e serviços com base nas demandas dos cidadãos, criando parcerias eficientes.
 
-* Comunicação bidirecional: Facilitar notificações e mensagens automatizadas entre cidadãos e gestores, garantindo transparência e eficiência.
-
-* Fornecer Relatórios e Análises: Disponibilizar relatórios detalhados e métricas sobre as solicitações, permitindo que prefeituras avaliem o desempenho, identificando áreas de melhorias.
-
+ Facilitar a Oferta de Serviços Personalizados: Permitir que empresas analisem as solicitações dos cidadãos e ofereçam serviços especializados às prefeituras, de acordo com as demandas e problemas detectados.
+ 
+* Fornecer Relatórios e Análises: Disponibilizar relatórios detalhados e métricas sobre as solicitações, permitindo que prefeituras e empresas conveniadas avaliem o desempenho, identificando áreas de melhoria e oportunidades de parceria.
 
 ## Arquitetura
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/%7BApi%7D%20(2).png)
+![arq](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/%7BApi%7D.png)
 
 ## Modelagem da Aplicação
 
