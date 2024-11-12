@@ -379,11 +379,10 @@ Verificam o funcionamento individual de funções e métodos relacionados à cri
 * it_can_list_servicos(): Testa a listagem de serviços, garantindo que a estrutura da resposta JSON esteja correta.
 * it_can_delete_a_servico(): Testa a exclusão de um serviço, verificando se ele foi removido do banco de dados.
   
-Ferramentas Utilizadas
+Ferramentas Utilizadas:
 
-PHPUnit: Para implementar e executar testes unitários e de integração no Laravel.
-
-Postman: Para automação de testes de API e testes manuais.
+* PHPUnit: Para implementar e executar testes unitários e de integração no Laravel.
+* Postman: Para automação de testes de API e testes manuais.
 
 # Referências
 
