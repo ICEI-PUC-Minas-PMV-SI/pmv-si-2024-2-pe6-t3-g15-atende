@@ -7,6 +7,8 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 * Promover a Integração Público-Privada: Proporcionar uma plataforma para que empresas parceiras possam se conectar às prefeituras, oferecendo soluções e serviços com base nas demandas dos cidadãos, criando parcerias eficientes.
 
+* Oferecer Transparência e Colaboração: Facilitar o compartilhamento de dados e status em tempo real entre prefeituras e empresas conveniadas, promovendo uma comunicação eficaz e garantindo transparência na gestão das solicitações.
+
 * Facilitar a Oferta de Serviços Personalizados: Permitir que empresas analisem as solicitações dos cidadãos e ofereçam serviços especializados às prefeituras, de acordo com as demandas e problemas detectados.
  
 * Fornecer Relatórios e Análises: Disponibilizar relatórios detalhados e métricas sobre as solicitações, permitindo que prefeituras e empresas conveniadas avaliem o desempenho, identificando áreas de melhoria e oportunidades de parceria.
