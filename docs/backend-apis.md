@@ -41,11 +41,13 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ## Tecnologias Utilizadas
 
-* ASP.NET Core: Para o desenvolvimento da API, garantindo desempenho, segurança e suporte a padrões modernos de arquitetura RESTful.
+* PHP: A linguagem de programação que serve como base para a construção da aplicação. O PHP é amplamente utilizado para desenvolvimento web, sendo conhecido por sua facilidade de aprendizado e grande comunidade.
 
-* MySQL: Banco de dados relacional para armazenamento de dados das solicitações e usuários, integrado ao ASP.NET Core via Entity Framework.
+* Laravel: Um framework PHP que agiliza o desenvolvimento de aplicações web, fornecendo uma estrutura robusta e organizada. Com o Laravel, é possível criar APIs RESTful de forma eficiente e segura.
 
-* Identity Server/Autenticação JWT: Para gerenciar autenticação e autorização, garantindo acesso seguro à API.
+* PostgreSQL: Um banco de dados relacional poderoso e escalável, ideal para armazenar grandes volumes de dados. O PostgreSQL é conhecido por sua confiabilidade e flexibilidade.
+  
+* Eloquent ORM: Fornecido pelo Laravel, o Eloquent ORM permite que você interaja com o banco de dados PostgreSQL utilizando objetos PHP. Isso simplifica significativamente a escrita de consultas SQL e o gerenciamento de dados.
 
 * JWT (JSON Web Tokens): Uma tecnologia de autenticação e autorização que permite criar tokens seguros para autenticar usuários e controlar o acesso a recursos da API. JWTs são compactas, seguras e fáceis de usar.
 
