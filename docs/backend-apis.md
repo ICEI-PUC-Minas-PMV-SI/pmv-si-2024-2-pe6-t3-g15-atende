@@ -57,7 +57,7 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ### Endpoint 1
 - Método: GET
-- URL: /api/solicitacoes
+- URL: /api/servicos
 - 
 - Resposta:
   - Sucesso (200 OK)
