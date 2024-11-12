@@ -54,7 +54,7 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
 
 ### Endpoint 1
 - Método: GET
-- URL: https://localhost:44374/api/Solicitacoes
+- URL: /api/solicitacoes
 - 
 - Resposta:
   - Sucesso (200 OK)
@@ -205,63 +205,147 @@ Facilitar a integração entre cidadãos e gestores municipais através de servi
         "total": 10
     }
 
-
-    ```
 ### Endpoint 2
-- Método: GET
-- URL: https://localhost:44374/api/Solicitacoes/5
-
+- Método: POST
+- URL: /api/register
+- Parâmetros:
+  - param1: name
+  - param2: email
+  - param3: password
 - Resposta:
   - Sucesso (200 OK)
     ```
     {
-	"$id": "1",
-	"titulo": "Buraco na pista",
-	"descricao": "Buraco na pista na rua g,58 ",
-	"dataCriacao": "2024-09-29T10:38:53.497",
-	"dataAtualizacao": "2024-09-29T10:38:53.497",
-	"status": 3,
-	"id": 5
+    "status": true,
+    "message": "Usuário criado com Sucesso",
+    "token": "4|1qg97paiLgsSSSsRD6620mYaG3ZRwQpWIiE31bQRe637b2f1"
+    }
+    ```
+  - Erro (401)
+    ```
+    {
+      "message": "Error",
+      "error": {
+        {
+        "status": false,
+        "message": "Erro de validação",
+        "errors": {
+        "name": [
+            "The name field is required."
+        ],
+        "email": [
+            "The email has already been taken."
+        ]
+    }
 }
+      }
+    }
     ```
 
 ### Endpoint 3
-- Método: Put
-- URL: https://localhost:44374/api/solicitacoes/5
-
+- Método: POST
+- URL: /api/login
+- Parâmetros:
+  - param1: email
+  - param2: password
 - Resposta:
   - Sucesso (200 OK)
     ```
-      {
-	"$id": "1",
-	"titulo": "Buraco na pista",
-	"descricao": "Buraco na pista na rua g,58 ",
-	"dataCriacao": "2024-09-29T10:38:53.497",
-	"dataAtualizacao": "2024-09-29T10:38:53.497",
-	"status": 1,
-	"id": 5
-}
+    {
+    "status": true,
+    "message": "Login realizado com sucesso!",
+    "token": "1|Alnm3hwcoTWnd5vpuNFKiykwvHqrQeMb1XERtk5Z6577078d"
+    }
+    ```
+  - Erro (401)
+    ```
+    {
+      "message": "Error",
+      "error": {
+        {
+          "status": false,
+          "message": "Algo deu errado!"
+        }
+      }
+    }
     ```
 
 ### Endpoint 4
 - Método: POST
-- URL: https://localhost:44374/api/Usuarios/login
--- Resposta:
+- URL: /api/servicos?nome_razaosocial=Empresa x&cpf_cnpj=144114141414&descricao=teste &categoria_id=1
+- Parâmetros:
+  - param1: nome_razaosocial
+  - param2: cpf_cnpj
+  - param3: descricao
+  - param4: categoria_id
+- Resposta:
   - Sucesso (200 OK)
     ```
     {
-  "$id": "1",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzIiwidW5pcXVlX25hbWUiOiJzdHJpbmciLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiQ2xpZW50ZSIsIm5iZiI6MTcyNzczNDU2NSwiZXhwIjoxNzI3NzYzMzY1LCJpYXQiOjE3Mjc3MzQ1NjV9.TJwbGURR3WBzDHxe6VQ-idUhOx4sRp5VZIOU0xVDC2M"
+    "message": "Serviço criado com sucesso!"
+    }
+    ```
+  - Erro (422)
+    ```
+    {
+      "message": "Error",
+      "error":
+        {
+    "message": "O campo CPF/CNPJ é obrigatório.",
+    "errors": {
+        "cpf_cnpj": [
+            "O campo CPF/CNPJ é obrigatório."
+        ]
+    }
 }
+    }
     ```
 
   ### Endpoint 5
-- Método: DELETE
-- URL: https://localhost:44374/api/Solicitacoes/5
+- Método: PUT
+- URL: /api/servicos/update/1?nome_razaosocial=TESTE EMPRESA 2&cpf_cnpj=1231323333&descricao=Empresa Teste W
+- Parâmetros:
+  - param1: nome_razaosocial
+  - param2: cpf_cnpj
+  - param3: descricao
 - Resposta:
-  - Sucesso (401 Unauthorized)
-    ```  
-  
+  - Sucesso (200 OK)
+    ```
+    {
+    "message": "Serviço atualizado com sucesso!"
+    }
+    ```
+  - Erro (404)
+    ```
+    {
+      "message": "Error",
+      "error":
+        {
+    "message": "Serviço não encontrado"
+        }
+    }
+    ```
+  ### Endpoint 6
+- Método: DELETE
+- URL: /api/servicos/delete/1
+
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+    "message": "Serviço  deletado com sucesso!!"
+    }
+    ```
+  - Erro (404)
+    ```
+    {
+      "message": "Error",
+      "error":
+        {
+    "message": "Serviço não encontrado"
+        }
+    }
+    ```
 ## Considerações de Segurança
 
 Será utilizada o uso de JWT (JSON Web Tokens), proporcionando uma forma eficaz de autenticação e autorização.
