@@ -16,7 +16,7 @@ O front-end da aplicação foi desenvolvido para oferecer uma interface de fáci
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
+A arquitetura da aplicação "Atende Cidadão" com Laravel e Blade é uma estrutura em camadas (MVC) que facilita a manutenção e escalabilidade. A camada de apresentação (Blade) e a camada de lógica de negócio (Laravel) trabalham em conjunto para fornecer uma experiência de usuário dinâmica e responsiva.
 
 ## Modelagem da Aplicação
 * Início
