@@ -20,6 +20,7 @@ O front-end da aplicação foi desenvolvido para oferecer uma interface de fáci
 
 ## Modelagem da Aplicação
 * Início
+
 ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/inicio%20.png)
 * Register
 ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/register.png)
