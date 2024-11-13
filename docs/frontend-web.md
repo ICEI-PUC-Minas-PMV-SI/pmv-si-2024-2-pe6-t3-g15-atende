@@ -19,7 +19,7 @@ O front-end da aplicação foi desenvolvido para oferecer uma interface de fáci
 [Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
 
 ## Modelagem da Aplicação
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/atende_db.png)
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t3-g15-atende/refs/heads/main/docs/img/inicio%20.png)
 
 
 ## Projeto da Interface Web
