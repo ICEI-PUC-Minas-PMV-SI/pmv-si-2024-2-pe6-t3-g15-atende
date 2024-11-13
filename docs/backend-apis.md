@@ -57,18 +57,118 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
 
 ### Endpoint 1
 - Método: GET
-- URL: /api/servicos
-- 
+- URL: `/api/solicitacoes`
+- Descrição: Retorna uma lista de solicitações com paginação.
 - Resposta:
   - Sucesso (200 OK)
     ```
-{
-  "status": true,
-  "message": "Solicitações consultadas com sucesso!",
-  "solicitacoes": {
-    "current_page": 1,
-    "data": [
-      {
+    {
+      "status": true,
+      "message": "Solicitações consultadas com sucesso!",
+      "solicitacoes": {
+        "current_page": 1,
+        "data": [
+          {
+            "id": 3,
+            "user_id": 1,
+            "endereco": "Avenida Principal, 100",
+            "descricao": "Reparação de buraco na via.",
+            "status": "pendente",
+            "id_categoria": 2,
+            "data_cadastro": "2024-11-12T21:25:25.000000Z",
+            "data_atualizacao": "2024-11-12T21:25:25.000000Z"
+          },
+          {
+            "id": 4,
+            "user_id": 1,
+            "endereco": "Rua Flores, 50",
+            "descricao": "Solicitação de poda de árvores.",
+            "status": "em andamento",
+            "id_categoria": 1,
+            "data_cadastro": "2024-11-12T21:25:25.000000Z",
+            "data_atualizacao": "2024-11-12T21:25:25.000000Z"
+          }
+        ],
+        "first_page_url": "http://127.0.0.1:8000/api/solicitacoes?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://127.0.0.1:8000/api/solicitacoes?page=1",
+        "links": [
+          {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+          },
+          {
+            "url": "http://127.0.0.1:8000/api/solicitacoes?page=1",
+            "label": "1",
+            "active": true
+          },
+          {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+          }
+        ],
+        "next_page_url": null,
+        "path": "http://127.0.0.1:8000/api/solicitacoes",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 2,
+        "total": 2
+      }
+    }
+    ```
+
+### Endpoint 2
+- Método: POST
+- URL: `/api/solicitacoes`
+- Parâmetros:
+  - `descricao` (string, obrigatório)
+  - `endereco` (string, obrigatório)
+  - `id_categoria` (inteiro, obrigatório)
+  - `imagem` (arquivo de imagem, opcional)
+- Resposta:
+  - Sucesso (201 Created)
+    ```
+    {
+      "status": true,
+      "message": "Solicitação criada com sucesso!",
+      "solicitacao": {
+        "id": 5,
+        "user_id": 1,
+        "endereco": "Rua Nova, 123",
+        "descricao": "Reparação na calçada",
+        "status": "pendente",
+        "id_categoria": 3,
+        "data_cadastro": "2024-11-12T21:25:25.000000Z",
+        "data_atualizacao": null
+      }
+    }
+    ```
+  - Erro (422 Unprocessable Entity)
+    ```
+    {
+      "status": false,
+      "message": "Erro de validação",
+      "errors": {
+        "descricao": ["O campo descrição é obrigatório."],
+        "endereco": ["O campo endereço é obrigatório."]
+      }
+    }
+    ```
+
+### Endpoint 3
+- Método: GET
+- URL: `/api/solicitacoes/{id}`
+- Parâmetros: `id` (ID da solicitação)
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "status": true,
+      "message": "Solicitação consultada com sucesso!",
+      "solicitacao": {
         "id": 3,
         "user_id": 1,
         "endereco": "Avenida Principal, 100",
@@ -77,190 +177,61 @@ A API "Atende Cidadão" visa integrar prefeituras e empresas parceiras, permitin
         "id_categoria": 2,
         "data_cadastro": "2024-11-12T21:25:25.000000Z",
         "data_atualizacao": "2024-11-12T21:25:25.000000Z"
-      },
-      {
-        "id": 4,
-        "user_id": 1,
-        "endereco": "Rua Flores, 50",
-        "descricao": "Solicitação de poda de árvores.",
-        "status": "em andamento",
-        "id_categoria": 1,
-        "data_cadastro": "2024-11-12T21:25:25.000000Z",
-        "data_atualizacao": "2024-11-12T21:25:25.000000Z"
-      }
-    ],
-    "first_page_url": "http://127.0.0.1:8000/api/solicitacoes?page=1",
-    "from": 1,
-    "last_page": 1,
-    "last_page_url": "http://127.0.0.1:8000/api/solicitacoes?page=1",
-    "links": [
-      {
-        "url": null,
-        "label": "&laquo; Previous",
-        "active": false
-      },
-      {
-        "url": "http://127.0.0.1:8000/api/solicitacoes?page=1",
-        "label": "1",
-        "active": true
-      },
-      {
-        "url": null,
-        "label": "Next &raquo;",
-        "active": false
-      }
-    ],
-    "next_page_url": null,
-    "path": "http://127.0.0.1:8000/api/solicitacoes",
-    "per_page": 10,
-    "prev_page_url": null,
-    "to": 2,
-    "total": 2
-  }
-}
-
-
-### Endpoint 2
-- Método: POST
-- URL: /api/register
-- Parâmetros:
-  - param1: name
-  - param2: email
-  - param3: password
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-    "status": true,
-    "message": "Usuário criado com Sucesso",
-    "token": "4|1qg97paiLgsSSSsRD6620mYaG3ZRwQpWIiE31bQRe637b2f1"
-    }
-    ```
-  - Erro (401)
-    ```
-    {
-      "message": "Error",
-      "error": {
-        {
-        "status": false,
-        "message": "Erro de validação",
-        "errors": {
-        "name": [
-            "The name field is required."
-        ],
-        "email": [
-            "The email has already been taken."
-        ]
-    }
-}
       }
     }
     ```
-
-### Endpoint 3
-- Método: POST
-- URL: /api/login
-- Parâmetros:
-  - param1: email
-  - param2: password
-- Resposta:
-  - Sucesso (200 OK)
+  - Erro (404 Not Found)
     ```
     {
-    "status": true,
-    "message": "Login realizado com sucesso!",
-    "token": "1|Alnm3hwcoTWnd5vpuNFKiykwvHqrQeMb1XERtk5Z6577078d"
-    }
-    ```
-  - Erro (401)
-    ```
-    {
-      "message": "Error",
-      "error": {
-        {
-          "status": false,
-          "message": "Algo deu errado!"
-        }
-      }
+      "status": false,
+      "message": "Solicitação não encontrada"
     }
     ```
 
 ### Endpoint 4
-- Método: POST
-- URL: /api/servicos?nome_razaosocial=Empresa x&cpf_cnpj=144114141414&descricao=teste &categoria_id=1
-- Parâmetros:
-  - param1: nome_razaosocial
-  - param2: cpf_cnpj
-  - param3: descricao
-  - param4: categoria_id
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-    "message": "Serviço criado com sucesso!"
-    }
-    ```
-  - Erro (422)
-    ```
-    {
-      "message": "Error",
-      "error":
-        {
-    "message": "O campo CPF/CNPJ é obrigatório.",
-    "errors": {
-        "cpf_cnpj": [
-            "O campo CPF/CNPJ é obrigatório."
-        ]
-    }
-}
-    }
-    ```
-
-  ### Endpoint 5
 - Método: PUT
-- URL: /api/servicos/update/1?nome_razaosocial=TESTE EMPRESA 2&cpf_cnpj=1231323333&descricao=Empresa Teste W
+- URL: `/api/solicitacoes/update/{id}`
 - Parâmetros:
-  - param1: nome_razaosocial
-  - param2: cpf_cnpj
-  - param3: descricao
+  - `descricao` (string, obrigatório)
+  - `endereco` (string, obrigatório)
+  - `id_categoria` (inteiro, obrigatório)
+  - `imagem` (arquivo de imagem, opcional)
 - Resposta:
   - Sucesso (200 OK)
     ```
     {
-    "message": "Serviço atualizado com sucesso!"
+      "status": true,
+      "message": "Solicitação atualizada com sucesso!"
     }
     ```
-  - Erro (404)
+  - Erro (404 Not Found)
     ```
     {
-      "message": "Error",
-      "error":
-        {
-    "message": "Serviço não encontrado"
-        }
+      "status": false,
+      "message": "Solicitação não encontrada"
     }
     ```
-  ### Endpoint 6
-- Método: DELETE
-- URL: /api/servicos/delete/1
 
+### Endpoint 5
+- Método: DELETE
+- URL: `/api/solicitacoes/delete/{id}`
+- Parâmetros: `id` (ID da solicitação)
 - Resposta:
   - Sucesso (200 OK)
     ```
     {
-    "message": "Serviço  deletado com sucesso!!"
+      "status": true,
+      "message": "Solicitação deletada com sucesso!"
     }
     ```
-  - Erro (404)
+  - Erro (404 Not Found)
     ```
     {
-      "message": "Error",
-      "error":
-        {
-    "message": "Serviço não encontrado"
-        }
+      "status": false,
+      "message": "Solicitação não encontrada"
     }
     ```
+"""
 ## Considerações de Segurança
 
 Será utilizada o uso de JWT (JSON Web Tokens), proporcionando uma forma eficaz de autenticação e autorização.
