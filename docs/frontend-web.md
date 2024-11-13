@@ -26,33 +26,87 @@ O front-end da aplicação foi desenvolvido para oferecer uma interface de fáci
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+* Tela de Login: Campos de "Usuário" e "Senha" com uma opção para manter-se conectado e um link para recuperação de senha, facilitando o acesso para usuários que retornam.
+
+* Tela Inicial (Página Informativa): Explica os objetivos do sistema, destacando o propósito de facilitar a comunicação entre cidadãos e a gestão pública. Apresenta botões de "Entrar" e "Criar Cadastro" para fácil navegação.
+
+* Tela de Registro: Formulário detalhado para registro de novos usuários, incluindo campos obrigatórios como nome, CPF/CNPJ, e-mail, senha, confirmação de senha, estado, cidade, CEP e endereço. Isso permite que a plataforma colete as informações necessárias para a identificação e o contato dos usuários.
+
+* Dashboard: Página principal para usuários logados, com gráficos e tabelas de solicitações. Inclui seções de "Solicitações Recentes" e "Resumo de Gastos", organizando as informações de forma visual para fácil acompanhamento.
+
+* Tela de Perfil de Usuário: Permite ao usuário verificar e editar suas informações básicas, como nome e e-mail. Também exibe a opção de salvar as alterações para atualizar as informações no sistema.
+
+* Tela de Alteração de Senha: Disponível na seção de perfil, permite ao usuário atualizar a senha. O formulário exige a senha atual, a nova senha e a confirmação da nova senha, garantindo segurança na atualização.
+
+* Nova Solicitação: Formulário que permite a criação de uma nova solicitação pública, com campos para endereço, descrição, categoria, e upload de imagem opcional. Botões para "Voltar" e "Criar Solicitação" facilitam a navegação.
+
+* Visualizar e Editar Solicitação: Exibe todos os detalhes de uma solicitação, com a opção de editar campos específicos. Essa funcionalidade permite que o administrador ou responsável mantenha o status atualizado conforme a solicitação avança.
+
+* Detalhes da Solicitação: Página que mostra informações completas sobre uma solicitação específica, incluindo endereço, descrição, categoria, status, data de cadastro e última atualização. A imagem associada à solicitação também é exibida.
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+O design da aplicação é moderno e amigável, com uma paleta de cores que transmite profissionalismo e confiabilidade.
+
+* Cores: Tons de azul são usados para elementos de ação (botões de confirmação e destaque), enquanto tons neutros de cinza e branco predominam no fundo, trazendo leveza à interface.
+
+* Tipografia: Fontes simples e claras garantem uma leitura confortável. Os títulos são destacados em negrito para melhor hierarquia visual.
+
+* Ícones e Elementos Gráficos: Ícones ajudam a identificar rapidamente as funções de cada botão, como os botões "Salvar", "Voltar" e "Editar". Gráficos de barra e de círculo representam dados de solicitações e gastos no dashboard.
 
 ### Layout Responsivo
-Desenvolvemos a interface para ser completamente responsiva, capaz de se adaptar a diversos tamanhos de tela, como desktops, tablets e smartphones. Com o uso de Media Queries e o suporte flexível do Material-UI, o layout e os componentes se ajustam automaticamente, assegurando que elementos como botões, campos de texto e menus estejam sempre visíveis e bem distribuídos, promovendo uma experiência de uso fluida e consistente em qualquer dispositivo.
+Desenvolvemos a interface para ser completamente responsiva, capaz de se adaptar a diversos tamanhos de tela, como desktops, tablets e smartphones. Os layouts e os componentes se ajustam automaticamente, assegurando que elementos como botões, campos de texto e menus estejam sempre visíveis e bem distribuídos, promovendo uma experiência de uso fluida e consistente em qualquer dispositivo..
 
 ### Interações do Usuário
-[Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
+* Feedback Visual: Ao interagir com campos de formulário, botões ou ícones, há um feedback visual (mudança de cor ou borda) para indicar a área selecionada.
+
+* Transições Suaves: As páginas mudam suavemente, mantendo a experiência agradável ao usuário ao navegar entre seções, como de "Login" para o "Dashboard".
+
+* Mensagens de Erro e Sucesso: Ao realizar ações como atualização de senha ou envio de uma nova solicitação, o usuário recebe mensagens de feedback indicando sucesso ou erros no preenchimento.
+
+* Notificações: Ícones de notificação informam o usuário sobre atualizações e mudanças importantes nas solicitações, melhorando a usabilidade e a experiência de engajamento.
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+O fluxo de dados está estruturado para garantir a eficiência e segurança na troca de informações entre usuários e o sistema. O fluxo segue as seguintes etapas:
+
+1- Registro: Usuários inserem informações pessoais como CPF/CNPJ e dados de endereço. O sistema valida as informações e armazena no banco de dados para futura identificação.
+
+2- Autenticação: Os usuários podem acessar a plataforma com as credenciais criadas. A autenticação garante que apenas usuários cadastrados possam acessar as funções de criação e gestão de solicitações.
+
+3-Criação de Solicitações: Após o login, os usuários podem criar novas solicitações preenchendo o formulário e anexando imagens, se desejado. O sistema armazena a solicitação e exibe no painel do usuário.
+
+4- Atualização de Perfil e Senha: Na área de perfil, os usuários podem atualizar suas informações de contato ou redefinir a senha. A alteração de senha exige a confirmação da senha atual para maior segurança.
+
+5- Consulta e Edição de Solicitações: Usuários e administradores podem visualizar, editar e atualizar o status das solicitações, mantendo o acompanhamento atualizado.
+
+6- Visualização de Resumo e Análise de Dados: No dashboard, gráficos e tabelas mostram resumos das solicitações e dos gastos associados. Isso permite uma análise visual rápida do volume de solicitações e da evolução dos gastos, auxiliando na tomada de decisões.
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+|ID    | Descrição do Requisito  |     |
+|------|-----------------------------------------|----|
+|RF-01| Usuários devem ser capazes de se registrar com informações pessoais (nome, CPF/CNPJ, endereço, e-mail, senha). | 
+|RF-02| Implementar login com autenticação por e-mail e senha. | 
+|RF-03| Permitir recuperação de senha para usuários que a esqueceram. |
+|RF-03| Usuários podem criar novas solicitações, inserindo detalhes como endereço, descrição, categoria e imagem opcional. |
+|RF-04| Exibir uma lista de solicitações recentes, com filtros por status e data.. |
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+|ID    | Descrição do Requisito  |     |
+|------|-----------------------------------------|----|
+|RF-01| A aplicação deve carregar as principais páginas (login, dashboard, lista de solicitações) em menos de 5 segundos em redes de internet comuns. | 
+|RF-02| Implementar criptografia para senhas de usuários e dados sensíveis.|
+|RF-03| Utilizar autenticação baseada em token para proteger sessões de usuário.|
+|RF-04| A interface deve ser intuitiva e acessível, com design responsivo para diferentes dispositivos, incluindo desktops, tablets e smartphones.|
+|RF-05| Garantir que todos os elementos da interface estejam claramente identificados e fáceis de usar para diferentes tipos de usuário.|
 
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+* Cross-Site Request Forgery (CSRF): Implementação de tokens CSRF para prevenir requisições não autorizadas.
+* Criptografia: Dados sensíveis, como senhas, devem ser criptografados antes do armazenamento.
+* Controle de acesso para diferentes papéis de usuário (usuário comum e administrador) para proteger ações específicas.
 
 ## Implantação
 
